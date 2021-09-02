@@ -62,7 +62,7 @@ main {
 /* header
 ==================================*/
 header {
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   right: 0;
@@ -75,7 +75,249 @@ header {
 /* footer
 ==================================*/
 footer {
-  background: #000;
+  background: #ffffff;
+  .footer_inner{
+    .banner_section{
+      background-color: #2f2f2f;
+      .container{
+        max-width: 1400px;
+        &.row{
+          align-items: center;
+          .col{
+            width: 50%;
+            padding-top: 90px;
+            padding-bottom: 90px;
+            padding-left: 20px;
+            padding-right: 20px;
+            &:first-child{
+              border-right: 1px solid #585959;
+              p{
+                &:first-child{
+                  @include Noto_Serif(300);
+                  font-size: 15px;
+                  text-align: center;
+                  color: #dedede;
+                  margin-bottom: 10px;
+                  br{
+                    display: none;
+                  }
+                }
+                &:nth-of-type(2){
+                  @include Marcellus(400);
+                  font-size: 24px;
+                  text-align: center;
+                  color: #fff;
+                  margin-bottom: 30px;
+                  letter-spacing: .16em;
+                  span{
+                    @include Marcellus(400);
+                    font-size: 16px;
+                    color: #fff;
+                  }
+                }
+              }
+              a{
+                @include Marcellus(400);
+                font-size: 24px;
+                text-align: center;
+                color: #fff;
+                background-color: #585959;
+                display: block;
+                max-width: 58%;
+                margin: 0 auto;
+                padding: 25px 0;
+                position: relative;
+                &::after{
+                  content: "";
+                  display: block;
+                  width: 30px;
+                  height: 1px;
+                  background-color: #949798;
+                  position: absolute;
+                  top: 50%;
+                  right: 30px;
+                  transform: translate(0, -50%);
+                }
+              }
+            }
+            &:last-child{
+              h5{
+                @include Marcellus(400);
+                font-size: 35px;
+                text-align: center;
+                color: #fff;
+                margin-bottom: 30px;
+              }
+              p{
+                @include Noto_Serif(300);
+                font-size: 18px;
+                text-align: center;
+                color: #fff;
+                line-height: 32px;
+
+                span{
+                  @include Noto_Serif(300);
+                  font-size: 15px;
+                  text-align: center;
+                  color: #fff;
+                  br{
+                    display: none;
+                  }
+                }
+              }
+              a{
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+    .logo{
+      padding-top: 55px;
+      padding-bottom: 20px;
+      a{
+        img{
+          width: 180px;
+        }
+      }
+    }
+    .footer_nav{
+      ul{
+        display: flex;
+        justify-content: flex-end;
+        li{
+          margin-left: 15px;
+          a{
+            @include Marcellus(400);
+            font-size: 14px;
+            color: #161616;
+          }
+        }
+      }
+    }
+    .footer_deatils{
+      background-color: #f4f5f5;
+      margin-top: 40px;
+      margin-bottom: 30px;
+      &.container{
+        // padding-right: 95px;
+        padding-left: 95px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        .row{
+          .col{
+            width: 50%;
+            &:first-child{
+              padding-right: 10px;
+              border-right: 1px solid #dee0e0;
+              h3{
+                @include Noto_Serif(300);
+                font-size: 18px;
+                color: #565656;
+                text-align: left;
+                line-height: 24px;
+                margin-bottom: 25px;
+                span{
+                  @include Noto_Serif(300);
+                  font-size: 14px;
+                  color: #565656;
+                }
+              }
+              p{
+                @include Noto_Serif(300);
+                font-size: 13px;
+                color: #565656;
+                text-align: left;
+                line-height: 23px;
+
+                &:nth-of-type(1){
+                  br{
+                    @include is-max(920px){
+                      display: block;
+                    }
+                  }
+                }
+
+                &:nth-of-type(2){
+                  text-indent: -43px;
+                  margin-left: 43px;
+
+                  br{
+                    display: none;
+  
+                    &:nth-of-type(2){
+                      display: block;
+                    }
+                  }
+                }
+
+                
+              }
+            }
+            &:last-child{
+              padding-left: 110px;
+              h3{
+                @include Noto_Serif(300);
+                font-size: 18px;
+                color: #565656;
+                text-align: left;
+                line-height: 24px;
+                margin-bottom: 25px;
+                span{
+                  @include Noto_Serif(300);
+                  font-size: 14px;
+                  color: #565656;
+                }
+              }
+              p{
+                @include Noto_Serif(300);
+                font-size: 13px;
+                color: #565656;
+                text-align: left;
+                line-height: 23px;
+
+                &:nth-of-type(2){
+                  text-indent: -43px;
+                  margin-left: 43px;
+                }
+                br{
+                  display: none;
+
+                  &:nth-of-type(2){
+                    display: block;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .copy{
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      padding-bottom: 40px;
+      a{
+        @include Noto_Serif(300);
+        font-size: 12px;
+        color: #565656;
+        border-bottom: 1px solid #d4d4d4;
+        padding-bottom: 3px; 
+      }
+      small{
+        @include Marcellus(400);
+        font-size: 12px;
+        color: #161616;
+        margin-left: 30px;
+        margin-bottom: 3px;
+      }
+    }
+    .footer_btn{
+      display: none;
+    }
+  }
 }
 
 #pageTop {
