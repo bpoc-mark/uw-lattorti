@@ -2,4 +2,81 @@
   Top
 ==================================*/
 #Top main {
+  .sect_5{
+    .wrapper{
+      padding-top: 140px;
+      padding-bottom: 140px;
+      .container{
+        padding-right: 0;
+        .row{
+          &:not(:last-child){
+            margin-bottom: 100px;
+          }
+          .col{
+            &:first-child{
+              width: calc(100% - 67%);
+              p{
+                @include Noto_Serif(300);
+                font-size: 15px;
+                text-align: left;
+                color: #161616;
+                margin-bottom: 25px;
+                margin-top: 50px;
+              }
+              h3{
+                @include Marcellus(400);
+                font-size: 34px;
+                text-align: left;
+                color: #161616;
+                margin-bottom: 90px;
+              }
+              a{
+                display: block;
+                width: 230px;
+                text-align: center;
+                @include Marcellus(400);
+                font-size: 14px;
+                color: #565656;
+                border: 1px solid #dddddd;
+                padding: 20px 0;
+                position: relative;
+                &::after{
+                  content: "";
+                  display: block;
+                  width: 30px;
+                  height: 1px;
+                  background-color: #dddddd;
+                  position: absolute;
+                  top: 50%;
+                  right: 30px;
+                  transform: translate(0, -50%);
+                }
+              }
+            }
+            &:last-child{
+              width: 67%;
+              .img_cont{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                .img_col{
+                  width: 33.10%;
+                  margin-bottom: 3px;
+                  position: relative;
+                  overflow: hidden;
+
+                  .desc{
+                    display: none;
+                  }
+                }
+              }
+              a{
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

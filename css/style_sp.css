@@ -892,6 +892,118 @@ img[src$=".png"], img[src$=".jpg"] {
 /*==================================
   Top
 ==================================*/
+#Top main .sect_5 .wrapper {
+  padding-top: 70px;
+  padding-bottom: 80px;
+}
+
+#Top main .sect_5 .wrapper .container .row:not(:last-child) {
+  margin-bottom: 75px;
+}
+
+#Top main .sect_5 .wrapper .container .row .col:first-child {
+  width: 100%;
+}
+
+#Top main .sect_5 .wrapper .container .row .col:first-child p {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 300;
+  font-size: 15px;
+  text-align: left;
+  color: #161616;
+  margin-bottom: 12.5px;
+}
+
+#Top main .sect_5 .wrapper .container .row .col:first-child h3 {
+  font-family: 'Marcellus', serif;
+  font-weight: 400;
+  font-size: 34px;
+  text-align: left;
+  color: #161616;
+  margin-bottom: 25px;
+}
+
+#Top main .sect_5 .wrapper .container .row .col:first-child a {
+  display: none;
+  width: 230px;
+  text-align: center;
+  font-family: 'Marcellus', serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #565656;
+  border: 1px solid #dddddd;
+  padding: 20px 0;
+  position: relative;
+}
+
+#Top main .sect_5 .wrapper .container .row .col:first-child a::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 1px;
+  background-color: #dddddd;
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translate(0, -50%);
+}
+
+#Top main .sect_5 .wrapper .container .row .col:last-child {
+  width: 100%;
+}
+
+#Top main .sect_5 .wrapper .container .row .col:last-child .img_cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#Top main .sect_5 .wrapper .container .row .col:last-child .img_cont .img_col {
+  width: 49%;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+#Top main .sect_5 .wrapper .container .row .col:last-child .img_cont .img_col img {
+  width: 100%;
+}
+
+#Top main .sect_5 .wrapper .container .row .col:last-child .img_cont .img_col .desc {
+  margin-top: 15px;
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 300;
+  font-size: 15px;
+  text-align: left;
+  color: #565656;
+}
+
+#Top main .sect_5 .wrapper .container .row .col:last-child a {
+  display: block;
+  width: 201px;
+  text-align: center;
+  font-family: 'Marcellus', serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #565656;
+  border: 1px solid #dddddd;
+  padding: 20px 0;
+  position: relative;
+  margin-top: 10px;
+}
+
+#Top main .sect_5 .wrapper .container .row .col:last-child a::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 1px;
+  background-color: #dddddd;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translate(0, -50%);
+}
+
 /*==================================
   Contact_reset
 ==================================*/
