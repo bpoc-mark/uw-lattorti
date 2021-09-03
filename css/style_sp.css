@@ -892,6 +892,102 @@ img[src$=".png"], img[src$=".jpg"] {
 /*==================================
   Top
 ==================================*/
+#Top main .sect_4 {
+  background-color: #6a6b6b;
+}
+
+#Top main .sect_4 .wrapper {
+  position: relative;
+}
+
+#Top main .sect_4 .wrapper .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+#Top main .sect_4 .wrapper .container.row .col {
+  position: relative;
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 50px;
+  padding-bottom: 35px;
+}
+
+#Top main .sect_4 .wrapper .container.row .col:hover {
+  background-color: #5e6060;
+  transition: all 200ms linear;
+}
+
+#Top main .sect_4 .wrapper .container.row .col:not(:last-child) {
+  border-bottom: 1px solid #8d8d8d;
+}
+
+#Top main .sect_4 .wrapper .container.row .col:nth-of-type(1) img {
+  width: 75px;
+  position: absolute;
+  top: 40px;
+  right: 30px;
+}
+
+#Top main .sect_4 .wrapper .container.row .col:nth-of-type(2) img {
+  width: 70px;
+  position: absolute;
+  top: 40px;
+  right: 30px;
+}
+
+#Top main .sect_4 .wrapper .container.row .col:nth-of-type(3) img {
+  width: 60px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+#Top main .sect_4 .wrapper .container.row .col:nth-of-type(4) img {
+  width: 65px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+#Top main .sect_4 .wrapper .container.row .col span {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 300;
+  font-size: 11px;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 10px;
+  display: block;
+}
+
+#Top main .sect_4 .wrapper .container.row .col h3 {
+  font-family: 'Marcellus', serif;
+  font-weight: 400;
+  font-size: 23px;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+#Top main .sect_4 .wrapper .container.row .col p {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: justify;
+  color: #dddddd;
+}
+
+#Top main .sect_4 .wrapper .container.row .col .arrow_img {
+  text-align: right;
+  margin-top: 20px;
+}
+
+#Top main .sect_4 .wrapper .container.row .col .arrow_img a img {
+  width: 44px;
+  position: unset;
+}
+
 #Top main .sect_5 .wrapper {
   padding-top: 70px;
   padding-bottom: 80px;
