@@ -892,6 +892,100 @@ img[src$=".png"], img[src$=".jpg"] {
 /*==================================
   Top
 ==================================*/
+#Top main .sect_1 .wrapper .container {
+  padding-right: 0;
+  padding-left: 50px;
+}
+
+#Top main .sect_1 .wrapper .container img {
+  width: 100%;
+}
+
+#Top main .sect_2 .wrapper {
+  padding-top: 90px;
+}
+
+#Top main .sect_2 .wrapper .container {
+  max-width: 1400px;
+  padding-right: 0;
+  padding-left: 65px;
+  position: relative;
+}
+
+#Top main .sect_2 .wrapper .container span {
+  font-family: 'Marcellus', serif;
+  font-weight: 400;
+  font-size: 21px;
+  letter-spacing: .08em;
+  color: #161616;
+  position: absolute;
+  top: -30px;
+  left: 15px;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+#Top main .sect_2 .wrapper .container .swiper .swiper-wrapper {
+  height: auto;
+}
+
+#Top main .sect_2 .wrapper .container .swiper .swiper-wrapper .swiper-slide .post_cat p {
+  font-family: 'Marcellus', serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #161616;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+#Top main .sect_2 .wrapper .container .swiper .swiper-wrapper .swiper-slide .post_img img {
+  width: 100%;
+}
+
+#Top main .sect_2 .wrapper .container .swiper .swiper-wrapper .swiper-slide .post_title p {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #565656;
+  text-align: left;
+  margin-bottom: 15px;
+  margin-top: 22.5px;
+}
+
+#Top main .sect_2 .wrapper .container .swiper .swiper-wrapper .swiper-slide .post_date p {
+  font-family: 'Marcellus', serif;
+  font-weight: 400;
+  font-size: 11px;
+  color: #161616;
+  text-align: left;
+}
+
+#Top main .sect_2 .wrapper .container a {
+  display: block;
+  width: 201px;
+  text-align: center;
+  font-family: 'Marcellus', serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #565656;
+  border: 1px solid #dddddd;
+  padding: 20px 0;
+  position: relative;
+  margin-top: 35px;
+}
+
+#Top main .sect_2 .wrapper .container a::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 1px;
+  background-color: #dddddd;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translate(0, -50%);
+}
+
 #Top main .sect_3 .wrapper {
   padding-top: 80px;
 }
@@ -926,7 +1020,7 @@ img[src$=".png"], img[src$=".jpg"] {
   letter-spacing: .08em;
   color: #161616;
   position: absolute;
-  top: -10px;
+  top: -20px;
   left: 15px;
   writing-mode: vertical-rl;
   text-orientation: mixed;
@@ -1202,7 +1296,7 @@ img[src$=".png"], img[src$=".jpg"] {
 #Top main .sect_5 .wrapper .container .row .col:last-child a::after {
   content: "";
   display: block;
-  width: 30px;
+  width: 20px;
   height: 1px;
   background-color: #dddddd;
   position: absolute;

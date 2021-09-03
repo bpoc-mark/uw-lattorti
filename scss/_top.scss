@@ -2,6 +2,106 @@
   Top
 ==================================*/
 #Top main {
+  .sect_1{
+    .wrapper{
+      // margin-top: 120px;
+      padding-bottom: 140px;
+      .container{
+        padding-right: 0;
+        padding-left: 100px;
+      }
+    }
+  }
+
+  .sect_2{
+    .wrapper{
+      .container{
+        max-width: 1400px;
+        padding-right: 0;
+        padding-left: 218px;
+        position: relative;
+        span{
+          @include Marcellus(400);
+          font-size: 30px;
+          letter-spacing: .08em;
+          color: #161616;
+          position: absolute;
+          top: -40px;
+          left: 100px;
+          writing-mode: vertical-rl;
+          text-orientation: mixed;
+
+          @include is-max(1300px){
+            left: 50px;
+          }
+        }
+        .swiper{
+          // margin-left: 170px;
+          .swiper-wrapper{
+            height: auto;
+            .swiper-slide{
+              .post_cat{
+                p{
+                  @include Marcellus(400);
+                  font-size: 14px;
+                  color: #161616;
+                  text-align: left;
+                  margin-bottom: 10px;
+                }
+              }
+              .post_img{
+                img{
+                  width: 100%;
+                }
+              }
+              .post_title{
+                p{
+                  @include Noto_Serif(300);
+                  font-size: 16px;
+                  color: #565656;
+                  text-align: left;
+                  margin-bottom: 15px;
+                  margin-top: 20px;
+                }
+              }
+              .post_date{
+                p{
+                  @include Marcellus(400);
+                  font-size: 12px;
+                  color: #161616;
+                  text-align: left;
+                }
+              }
+            }
+          }
+        }
+        a{
+          display: block;
+          width: 250px;
+          text-align: center;
+          @include Marcellus(400);
+          font-size: 14px;
+          color: #565656;
+          border: 1px solid #dddddd;
+          padding: 20px 0;
+          position: relative;
+          margin-top: 80px;
+          &::after{
+            content: "";
+            display: block;
+            width: 30px;
+            height: 1px;
+            background-color: #dddddd;
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            transform: translate(0, -50%);
+          }
+        }
+      }
+    }
+  }
+
   .sect_3{
     .wrapper{
       padding-top: 190px;

@@ -78,8 +78,7 @@ header {
   z-index: 999;
   background: #fff;
   width: 100%;
-  height: 100px;
-  margin-bottom: 300px;
+  height: 120px;
 }
 
 /* footer
@@ -772,6 +771,102 @@ img[src$=".png"], img[src$=".jpg"] {
 /*==================================
   Top
 ==================================*/
+#Top main .sect_1 .wrapper {
+  padding-bottom: 140px;
+}
+
+#Top main .sect_1 .wrapper .container {
+  padding-right: 0;
+  padding-left: 100px;
+}
+
+#Top main .sect_2 .wrapper .container {
+  max-width: 1400px;
+  padding-right: 0;
+  padding-left: 218px;
+  position: relative;
+}
+
+#Top main .sect_2 .wrapper .container span {
+  font-family: 'Marcellus', serif;
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: .08em;
+  color: #161616;
+  position: absolute;
+  top: -40px;
+  left: 100px;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+@media only screen and (max-width: 1300px) {
+  #Top main .sect_2 .wrapper .container span {
+    left: 50px;
+  }
+}
+
+#Top main .sect_2 .wrapper .container .swiper .swiper-wrapper {
+  height: auto;
+}
+
+#Top main .sect_2 .wrapper .container .swiper .swiper-wrapper .swiper-slide .post_cat p {
+  font-family: 'Marcellus', serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #161616;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+#Top main .sect_2 .wrapper .container .swiper .swiper-wrapper .swiper-slide .post_img img {
+  width: 100%;
+}
+
+#Top main .sect_2 .wrapper .container .swiper .swiper-wrapper .swiper-slide .post_title p {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #565656;
+  text-align: left;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+#Top main .sect_2 .wrapper .container .swiper .swiper-wrapper .swiper-slide .post_date p {
+  font-family: 'Marcellus', serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #161616;
+  text-align: left;
+}
+
+#Top main .sect_2 .wrapper .container a {
+  display: block;
+  width: 250px;
+  text-align: center;
+  font-family: 'Marcellus', serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #565656;
+  border: 1px solid #dddddd;
+  padding: 20px 0;
+  position: relative;
+  margin-top: 80px;
+}
+
+#Top main .sect_2 .wrapper .container a::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 1px;
+  background-color: #dddddd;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translate(0, -50%);
+}
+
 #Top main .sect_3 .wrapper {
   padding-top: 190px;
   padding-bottom: 160px;
