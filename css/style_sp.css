@@ -526,6 +526,7 @@ footer .footer_inner .banner_section .container.row .col:last-child p span {
   font-size: 15px;
   color: #fff;
   line-height: 25px;
+  display: block;
 }
 
 footer .footer_inner .banner_section .container.row .col:last-child a {
