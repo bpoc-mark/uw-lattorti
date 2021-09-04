@@ -1,4 +1,4 @@
-<section class="sect_1">
+<section class="sect_1" id="sect-1">
     <div class="wrapper">
         <div class="container">
             <picture>

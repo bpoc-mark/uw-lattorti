@@ -122,10 +122,13 @@
                 </div>
                 <!-- If we need pagination -->
                 <!-- <div class="swiper-pagination"></div> -->
-
-                <!-- If we need navigation buttons -->
-                <!-- <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div> -->
+            </div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev">
+                <img src="/images/top/section_2/arrow.svg" alt="">
+            </div>
+            <div class="swiper-button-next">
+                <img src="/images/top/section_2/arrow.svg" alt="">
             </div>
             <a href="">view more</a>
         </div>

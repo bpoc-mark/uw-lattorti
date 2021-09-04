@@ -65,8 +65,8 @@ $str = explode('/', $url); ?>
 			</li>
 		</ul>
 	</nav>
+	<a href="" class="btn_reserve">RESERVE</a>
 </div>
-
 <div class="big_menu">
 	<div class="overlay"></div>
 	<div class="float_menu">

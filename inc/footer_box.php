@@ -36,6 +36,9 @@
 			<li><a href="/">CONTACT</a></li>
 			<li><a href="/">RESERVE</a></li>
 		</ul>
+		<a href="#">
+			<img src="/images/common/arrow_up.svg" alt="">
+		</a>
 	</nav>
 
 	<div class="footer_deatils container">

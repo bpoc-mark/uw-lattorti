@@ -25,15 +25,15 @@
     
     
     breakpoints: {
-        0: {
-          slidesPerView: 1.4,
-          spaceBetween: 30,
-        },
-        900: {
-          slidesPerView: 3.7,
-          spaceBetween: 30,
-        },
-      }
+      0: {
+        slidesPerView: 1.4,
+        spaceBetween: 30,
+      },
+      900: {
+        slidesPerView: 3.7,
+        spaceBetween: 30,
+      },
+    },
 
     // If we need pagination
     // pagination: {
@@ -41,9 +41,9 @@
     // },
 
     // // Navigation arrows
-    // navigation: {
-    //   nextEl: '.swiper-button-next',
-    //   prevEl: '.swiper-button-prev',
-    // },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
   });
 </script>

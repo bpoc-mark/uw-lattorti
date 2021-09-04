@@ -62,22 +62,55 @@ main {
 /* header
 ==================================*/
 header {
-  position: relative;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 999;
   background: #fff;
   width: 100%;
-  // height: 120px;
-  padding-top: 60px;
-  padding-bottom: 20px;
+  transition: .3s ease;
+  height: 120px;
+  // padding-top: 60px;
+  padding-bottom: 18px;
+  &.scroll{
+    height: 90px;
+    padding-bottom: 25px;
+    .header_inner{
+      &::before{
+        height: 0;
+      }
+      &.row{
+        // align-items: center;
+        .right{
+          padding-bottom: 0;
+        }
+      }
+    }
+  }
   .header_inner{
+    position: relative;
+    transition: .3s ease;
+    height: 100%;
+    &::before{
+      content: "";
+      transition: .3s ease;
+      display: block;
+      width: 330px;
+      height: 157px;
+      background-color: #fff;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
     &.container{
       max-width: 1400px;
     }
     &.row{
+      transition: .3s ease;
       justify-content: space-between;
+      align-items: flex-end;
       .left{
         .logo{
           a{
@@ -88,6 +121,8 @@ header {
         }
       }
       .right{
+        transition: .3s ease;
+        padding-bottom: 15px;
         ul{
           list-style: none;
           li{
@@ -105,7 +140,7 @@ header {
               position: absolute;
             }
             &:not(:last-child){
-              @include is-max(950px){
+              @include is-max(970px){
                 display: none;
               }
             }
@@ -187,6 +222,24 @@ header {
               }
             }
           }
+        }
+      }
+      .btn_reserve{
+        position: absolute;
+        top: 250px;
+        right: -68px;
+        width: 207px;
+        @include Marcellus(400);
+        font-size: 16px;
+        color: #fff;
+        background-color: #65696a;
+        padding: 24px 0 24px 30px; 
+        transform: rotate(90deg);
+        transition: .3s ease;
+        &:hover{
+          background-color: #f4f5f5;
+          color: #65696a;
+          border: 1px solid #65696a;
         }
       }
     }
@@ -480,6 +533,7 @@ footer {
       }
     }
     .footer_nav{
+      position: relative;
       ul{
         display: flex;
         justify-content: flex-end;
@@ -490,6 +544,15 @@ footer {
             font-size: 14px;
             color: #161616;
           }
+        }
+      }
+      img{
+        width: 7px;
+        position: absolute;
+        top: -80px;
+        right: -20px;
+        @include is-max(1400px){
+          right: 20px;
         }
       }
     }

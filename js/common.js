@@ -25,7 +25,7 @@ $(function () {
 
 });
 
-$('.menu p').click(function(){
+$('.menu').click(function(){
   if ($('.menu').hasClass("active")) {
     $('.menu').removeClass("active");
     $('.big_menu').removeClass("active");
