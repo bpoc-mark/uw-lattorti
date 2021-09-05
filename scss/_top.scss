@@ -472,12 +472,18 @@
               .img_cont{
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: space-between;
+                justify-content: flex-start;
                 .img_col{
                   width: 33.10%;
                   margin-bottom: 3px;
                   position: relative;
                   overflow: hidden;
+                  &:nth-child(3n+2){
+                    margin-left: 0.23%;
+                  }
+                  &:nth-child(3n+3){
+                    margin-left: 0.3%;
+                  }
                   &:hover{
                     .p_head{
         
@@ -546,7 +552,7 @@
                   }
                 }
               }
-              a{
+              .btn_viewmore_sp{
                 display: none;
               }
             }

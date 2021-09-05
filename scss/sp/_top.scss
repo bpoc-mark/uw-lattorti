@@ -400,11 +400,13 @@
               .img_cont{
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: space-between;
+                justify-content: flex-start;
                 .img_col{
                   width: 49%;
                   margin-bottom: 30px;
-                  
+                  &:nth-child(2n+2){
+                    margin-left: 2%;
+                  }
                   .img_wrap{
                     position: relative;
                     overflow: hidden;
@@ -481,7 +483,7 @@
                   }
                 }
               }
-              a{
+              .btn_viewmore_sp{
                 display: block;
                 width: 201px;
                 text-align: center;
