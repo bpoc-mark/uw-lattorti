@@ -15,11 +15,13 @@ $str = explode('/', $url); ?>
 		<ul>
 			<li>
 				<a href="/" <?php if ($str[1] == "") {echo ' class="here"';} ?>>
+					<span>サロン情報</span><br>
 					SALON
 				</a>
 			</li>
 			<li>
 				<a href="/about/" <?php if ($str[1] == "about") {echo 'class="here"';} ?>>
+					<span>ギャラリー</span><br>
 					GALLERY
 				</a>
 				<ul class="sub_menu">
@@ -37,21 +39,25 @@ $str = explode('/', $url); ?>
 			</li>
 			<li>
 				<a href="/about/" <?php if ($str[1] == "about") {echo 'class="here"';} ?>>
+					<span>ヘア</span><br>
 					HAIR
 				</a>
 			</li>
 			<li>
 				<a href="/about/" <?php if ($str[1] == "about") {echo 'class="here"';} ?>>
+					<span>ネイル</span><br>
 					NAIL
 				</a>
 			</li>
 			<li>
 				<a href="/about/" <?php if ($str[1] == "about") {echo 'class="here"';} ?>>
+					<span>まつ毛エクステ</span><br>
 					EYELASH
 				</a>
 			</li>
 			<li>
 				<a href="/about/" <?php if ($str[1] == "about") {echo 'class="here"';} ?>>
+					<span>エステ</span><br>
 					ESTHETIC
 				</a>
 			</li>
@@ -74,7 +80,7 @@ $str = explode('/', $url); ?>
 			<ul class="col">
 				<li>
 					<a href="">
-						<span>サロン情報</span>
+						<span>トップ</span>
 						TOP
 					</a>
 				</li>
@@ -86,19 +92,19 @@ $str = explode('/', $url); ?>
 				</li>
 				<li>
 					<a href="">
-						<span>サロン情報</span>
+						<span>ギャラリー</span>
 						GALLERY
 					</a>
 					<ul class="submenu">
 						<li>
 							<a href="">
-								<span>サロン情報</span>
+								<span>ヘアスタイル</span>
 								HAIR STYLE
 							</a>
 						</li>
 						<li>
 							<a href="">
-								<span>サロン情報</span>
+								<span>ネイルデザイン</span>
 								NAIL DESIGN
 							</a>
 						</li>
@@ -106,31 +112,31 @@ $str = explode('/', $url); ?>
 				</li>
 				<li>
 					<a href="">
-						<span>サロン情報</span>
+						<span>ヘアメニュー</span>
 						HAIR MENU
 					</a>
 				</li>
 				<li>
 					<a href="">
-						<span>サロン情報</span>
+						<span>トータルビューティーメニュー</span>
 						TOTAL BEAUTY MENU
 					</a>
 					<ul class="submenu">
 						<li>
 							<a href="">
-								<span>サロン情報</span>
+								<span>ネイル</span>
 								NAIL
 							</a>
 						</li>
 						<li>
 							<a href="">
-								<span>サロン情報</span>
+								<span>まつ毛エクステ</span>
 								EYELASH
 							</a>
 						</li>
 						<li>
 							<a href="">
-								<span>サロン情報</span>
+								<span>エステ</span>
 								ESTHETIC
 							</a>
 						</li>
@@ -140,13 +146,13 @@ $str = explode('/', $url); ?>
 			<ul class="col">
 				<li>
 					<a href="">
-						<span>サロン情報</span>
+						<span>スタッフ紹介</span>
 						STAFF
 					</a>
 				</li>
 				<li>
 					<a href="">
-						<span>サロン情報</span>
+						<span>スタッフ紹介</span>
 						ACCESS
 					</a>
 				</li>
@@ -158,13 +164,13 @@ $str = explode('/', $url); ?>
 				</li>
 				<li>
 					<a href="">
-						<span>サロン情報</span>
+						<span>採用情報</span>
 						RECRUIT
 					</a>
 				</li>
 				<li>
 					<a href="">
-						<span>サロン情報</span>
+						<span>お問い合わせ</span>
 						CONTACT
 					</a>
 				</li>

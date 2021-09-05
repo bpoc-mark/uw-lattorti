@@ -1,9 +1,9 @@
 <section class="sect_2">
     <div class="wrapper">
         <div class="container">
-            <span>TOPICS</span>
+            <span class="c-anim-up">TOPICS</span>
             <!-- Slider main container -->
-            <div class="swiper">
+            <div class="swiper c-anim-up">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                     <!-- Slides -->
@@ -130,7 +130,7 @@
             <div class="swiper-button-next">
                 <img src="/images/top/section_2/arrow.svg" alt="">
             </div>
-            <a href="">view more</a>
+            <a href="" class="c-anim-up">view more</a>
         </div>
     </div>
 </section>

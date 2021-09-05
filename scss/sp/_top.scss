@@ -33,6 +33,7 @@
           left: 15px;
           writing-mode: vertical-rl;
           text-orientation: mixed;
+          opacity: 1;
         }
         .swiper{
           // margin-left: 170px;
@@ -184,6 +185,7 @@
                 left: 15px;
                 writing-mode: vertical-rl;
                 text-orientation: mixed;
+                opacity: 1;
               }
               h3{
                 @include Noto_Serif(300);

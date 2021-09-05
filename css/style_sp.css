@@ -1209,6 +1209,7 @@ img[src$=".png"], img[src$=".jpg"] {
   left: 15px;
   writing-mode: vertical-rl;
   text-orientation: mixed;
+  opacity: 1;
 }
 
 #Top main .sect_2 .wrapper .container .swiper .swiper-wrapper {
@@ -1380,6 +1381,7 @@ img[src$=".png"], img[src$=".jpg"] {
   left: 15px;
   writing-mode: vertical-rl;
   text-orientation: mixed;
+  opacity: 1;
 }
 
 #Top main .sect_3 .wrapper .container .row .col:first-child h3 {

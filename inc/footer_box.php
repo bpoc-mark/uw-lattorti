@@ -3,25 +3,25 @@
 	<div class="banner_section">
 		<div class="container row">
 			<div class="col">
-				<p>ご予約は、お電話または<br>予約サイトから承っております。</p>
-				<p><span>Tel.</span>053-424-6757</p>
-				<a href="">RESERVE</a>
+				<p class="c-anim-up">ご予約は、お電話または<br>予約サイトから承っております。</p>
+				<p class="c-anim-up"><span>Tel.</span>053-424-6757</p>
+				<a href="" class="c-anim-up">RESERVE</a>
 			</div>
 			<div class="col">
-				<h5>RECRUIT</h5>
-				<p>スタッフ募集中<br>
-				<span>再現性の高い技術を修得しながら一緒に<br>楽しく働いてみませんか？</span>
+				<h5 class="c-anim-up">RECRUIT</h5>
+				<p class="c-anim-up">スタッフ募集中<br>
+				<span class="c-anim-up">再現性の高い技術を修得しながら一緒に<br>楽しく働いてみませんか？</span>
 				</p>
-				<a href="">view more</a>
+				<a href="" class="c-anim-up">view more</a>
 			</div>
 		</div>
 	</div>
 
-	<div class="logo container">
+	<div class="logo container c-anim-up">
 		<a href="/"><img src="/images/common/footer_logo.svg" alt="<?php echo SITE_NAME; ?>"></a>
 	</div>
 
-	<nav class="container footer_nav">
+	<nav class="container footer_nav c-anim-up">
 		<ul>
 			<li><a href="/">SALON</a></li>
 			<li><a href="/">GALLERY</a></li>
