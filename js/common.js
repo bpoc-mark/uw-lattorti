@@ -23,22 +23,24 @@ $(function () {
 
   }
 
-});
-
-$('.menu').click(function(){
-  if ($('.menu').hasClass("active")) {
+  $('.menu').click(function(){
+    if ($('.menu').hasClass("active")) {
+      $('.menu').removeClass("active");
+      $('.big_menu').removeClass("active");
+    } else {
+      $('.menu').addClass("active");
+      $('.big_menu').addClass("active");
+    }
+  })
+  
+  $('.overlay').click(function(){
     $('.menu').removeClass("active");
     $('.big_menu').removeClass("active");
-  } else {
-    $('.menu').addClass("active");
-    $('.big_menu').addClass("active");
-  }
-})
+  })
 
-$('.overlay').click(function(){
-  $('.menu').removeClass("active");
-  $('.big_menu').removeClass("active");
-})
+});
+
+
 
 // シンプルローディング
 const spinner = document.querySelector('#loading');

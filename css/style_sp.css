@@ -222,12 +222,16 @@ header .header_inner.row .btn_reserve {
 }
 
 header .big_menu {
+  visibility: hidden;
   overflow: auto;
+  -webkit-overflow-scrolling: touch;
   width: 100%;
   height: 0;
   position: fixed;
   top: 0;
   left: 0;
+  right: 0;
+  bottom: 0;
   z-index: 1000;
   background-color: #ffffff;
   backdrop-filter: blur(3px);
@@ -240,6 +244,7 @@ header .big_menu .overlay {
 
 header .big_menu.active {
   height: 100%;
+  visibility: visible;
 }
 
 header .big_menu .float_menu {
