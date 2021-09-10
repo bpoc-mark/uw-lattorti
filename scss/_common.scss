@@ -724,3 +724,64 @@ footer {
     }
   }
 }
+
+/* jumbo section
+==================================*/
+.jumbo_sect{
+  .wrapper{
+    margin-top: 120px;
+    height: 430px;
+    
+    .container{
+      height: 100%;
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      justify-content: center;
+      span{
+        @include Noto_Serif(300);
+        font-size: 15px;
+        color: #161616;
+      }
+      h3{
+        @include Marcellus(400);
+        font-size: 44px;
+        color: #161616;
+        margin: 30px 0 20px;
+      }
+      .breadcrumb{
+        list-style: none;
+        display: flex;
+        li{
+          display: flex;
+          align-items: center;
+          margin-right: 20px;
+          position: relative;
+          &:not(:first-child){
+            margin-left: 3px;
+          }
+          &:not(:last-child){
+            &::after{
+              content: "";
+              display: block;
+              background-color: #c2c6c6;
+              width: 8px;
+              height: 1px;
+              position: absolute;
+              top: 50%;
+              right: -15px;
+              transform: translate(0, -50%)
+            }
+          }
+
+          a{
+            @include Marcellus(400);
+            font-size: 11px;
+            color: #161616;
+            display: flex;
+          }
+        }
+      }
+    }
+  }
+}

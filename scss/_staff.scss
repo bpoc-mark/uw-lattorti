@@ -1,0 +1,37 @@
+/*==================================
+  Access
+==================================*/
+#Staff main {
+  .sect_1{
+    .wrapper{
+      padding-bottom: 80px;
+      .container{
+        .row{
+          justify-content: flex-start;
+          .col{
+            width: 22.5%;
+            margin-bottom: 105px;
+            &:not(:nth-child(4n+1)){
+              margin-left: 3.33%;
+            }
+            figure{
+              margin-bottom: 30px
+            }
+            .staff_info{
+              h5{
+                @include Marcellus(400);
+                font-size: 24px;
+                color: #161616;
+              }
+              p{
+                @include Noto_Serif(300);
+                font-size: 14px;
+                line-height: 35px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

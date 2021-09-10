@@ -1,0 +1,58 @@
+/*==================================
+  Access
+==================================*/
+#Access main {
+  .sect_1{
+    .wrapper{
+      padding-bottom: 30px;
+      .map_wrap{
+        padding-bottom: 120px;
+        .info_cont{
+          margin-bottom: 65px;
+          h4{
+            @include Marcellus(400);
+            font-size: 24px;
+            color: #161616;
+            line-height: 30px;
+            margin-bottom: 50px;
+            span{
+              @include Noto_Serif(300);
+              font-size: 14px;
+              color: #161616;
+              display: block;
+              text-indent: -8px;
+            }
+          }
+          p{
+            @include Noto_Serif(300);
+            font-size: 16px;
+            color: #565656;
+            line-height: 35px;
+            br{
+              display: none;
+            }
+          }
+        }
+        .map_cont{
+          &.container{
+            padding-left: 0;
+            padding-right: 0;
+          }
+          &.row{
+            .col{
+              &:first-child{
+                width: 65%;
+                iframe{
+                  filter: grayscale(100%);
+                }
+              }
+              &:last-child{
+                width: 35%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
