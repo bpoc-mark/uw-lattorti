@@ -176,15 +176,15 @@ $str = explode('/', $url); ?>
 				</li>
 				
 			</ul>
-		</div>
-		<div class="btn_cont">
-			<p><span>Tel.</span>053-424-6757</p>
-			<a href="">RESERVE</a>
+			<div class="btn_cont">
+				<p><span>Tel.</span>053-424-6757</p>
+				<a href="">RESERVE</a>
+			</div>
 		</div>
 		<div class="menu menu2">
-			<span class="line line-t"></span>
+			<span class="line line-t-h"></span>
 			<!-- <span class="line line-m"></span> -->
-			<span class="line line-b"></span>
+			<span class="line line-b-h"></span>
 			<p></p>
 		</div>
 	</div>

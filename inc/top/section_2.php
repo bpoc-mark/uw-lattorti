@@ -1,123 +1,123 @@
 <section class="sect_2">
     <div class="wrapper">
-        <div class="container">
-            <span class="c-anim-up">TOPICS</span>
+        <div class="container c-anim-up">
+            <span>TOPICS</span>
             <!-- Slider main container -->
             <div class="swiper c-anim-up">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                     <!-- Slides -->
                     <div class="swiper-slide">
-                        <div class="post_cat">
+                        <a href="" class="post_cat">
                             <p>NEWS</p>
-                        </div>    
-                        <div class="post_img">
+                        </a>    
+                        <a href="" class="post_img">
                             <img src="/images/top/section_2/img_1.png" alt="">
-                        </div>
-                        <div class="post_title">
+                        </a>
+                        <a href="" class="post_title">
                             <p>5月、6月、7月の店休日</p>
-                        </div>
-                        <div class="post_date">
+                        </a>
+                        <a href="" class="post_date">
                             <p>2021.04.30</p>
-                        </div>
+                        </a>
                     </div>
                     <div class="swiper-slide">
-                        <div class="post_cat">
+                        <a href="" class="post_cat">
                             <p>PRODUCT</p>
-                        </div>    
-                        <div class="post_img">
+                        </a>    
+                        <a href="" class="post_img">
                             <img src="/images/top/section_2/img_2.png" alt="">
-                        </div>
-                        <div class="post_title">
+                        </a>
+                        <a href="" class="post_title">
                             <p>V3 HARISET 販売開始！</p>
-                        </div>
-                        <div class="post_date">
+                        </a>
+                        <a href="" class="post_date">
                             <p>2021.04.30</p>
-                        </div>
+                        </a>
                     </div>
                     <div class="swiper-slide">
-                        <div class="post_cat">
+                        <a href="" class="post_cat">
                             <p>RECRUIT</p>
-                        </div>    
-                        <div class="post_img">
+                        </a>    
+                        <a href="" class="post_img">
                             <img src="/images/top/section_2/img_3.png" alt="">
-                        </div>
-                        <div class="post_title">
+                        </a>
+                        <a href="" class="post_title">
                             <p>只今スタッフ募集中です！</p>
-                        </div>
-                        <div class="post_date">
+                        </a>
+                        <a href="" class="post_date">
                             <p>2021.04.30</p>
-                        </div>
+                        </a>
                     </div>
                     <div class="swiper-slide">
-                        <div class="post_cat">
+                        <a href="" class="post_cat">
                             <p>MENU</p>
-                        </div>    
-                        <div class="post_img">
+                        </a>    
+                        <a href="" class="post_img">
                             <img src="/images/top/section_2/img_4.png" alt="">
-                        </div>
-                        <div class="post_title">
+                        </a>
+                        <a href="" class="post_title">
                             <p>移転オープンしました！</p>
-                        </div>
-                        <div class="post_date">
+                        </a>
+                        <a href="" class="post_date">
                             <p>2021.04.30</p>
-                        </div>
+                        </a>
                     </div>
                     <div class="swiper-slide">
-                        <div class="post_cat">
+                        <a href="" class="post_cat">
                             <p>NEWS</p>
-                        </div>    
-                        <div class="post_img">
+                        </a>    
+                        <a href="" class="post_img">
                             <img src="/images/top/section_2/img_1.png" alt="">
-                        </div>
-                        <div class="post_title">
+                        </a>
+                        <a href="" class="post_title">
                             <p>5月、6月、7月の店休日</p>
-                        </div>
-                        <div class="post_date">
+                        </a>
+                        <a href="" class="post_date">
                             <p>2021.04.30</p>
-                        </div>
+                        </a>
                     </div>
                     <div class="swiper-slide">
-                        <div class="post_cat">
+                        <a href="" class="post_cat">
                             <p>PRODUCT</p>
-                        </div>    
-                        <div class="post_img">
+                        </a>    
+                        <a href="" class="post_img">
                             <img src="/images/top/section_2/img_2.png" alt="">
-                        </div>
-                        <div class="post_title">
+                        </a>
+                        <a href="" class="post_title">
                             <p>V3 HARISET 販売開始！</p>
-                        </div>
-                        <div class="post_date">
+                        </a>
+                        <a href="" class="post_date">
                             <p>2021.04.30</p>
-                        </div>
+                        </a>
                     </div>
                     <div class="swiper-slide">
-                        <div class="post_cat">
+                        <a href="" class="post_cat">
                             <p>RECRUIT</p>
-                        </div>    
-                        <div class="post_img">
+                        </a>    
+                        <a href="" class="post_img">
                             <img src="/images/top/section_2/img_3.png" alt="">
-                        </div>
-                        <div class="post_title">
+                        </a>
+                        <a href="" class="post_title">
                             <p>只今スタッフ募集中です！</p>
-                        </div>
-                        <div class="post_date">
+                        </a>
+                        <a href="" class="post_date">
                             <p>2021.04.30</p>
-                        </div>
+                        </a>
                     </div>
                     <div class="swiper-slide">
-                        <div class="post_cat">
+                        <a href="" class="post_cat">
                             <p>MENU</p>
-                        </div>    
-                        <div class="post_img">
+                        </a>    
+                        <a href="" class="post_img">
                             <img src="/images/top/section_2/img_4.png" alt="">
-                        </div>
-                        <div class="post_title">
+                        </a>
+                        <a href="" class="post_title">
                             <p>移転オープンしました！</p>
-                        </div>
-                        <div class="post_date">
+                        </a>
+                        <a href="" class="post_date">
                             <p>2021.04.30</p>
-                        </div>
+                        </a>
                     </div>
                 </div>
                 <!-- If we need pagination -->
@@ -130,7 +130,7 @@
             <div class="swiper-button-next">
                 <img src="/images/top/section_2/arrow.svg" alt="">
             </div>
-            <a href="" class="c-anim-up">view more</a>
+            <a href="" class="btn_viewmore c-anim-up">view more</a>
         </div>
     </div>
 </section>

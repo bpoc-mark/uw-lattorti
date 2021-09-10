@@ -2,8 +2,8 @@
     <div class="wrapper">
         <div class="container">
             <div class="row">
-                <div class="col">
-                    <span class="txt_about c-anim-up">ABOUT</span>
+                <div class="col c-anim-up">
+                    <span class="txt_about">ABOUT</span>
                     <h3 class="c-anim-up">長くお付き合いいただける<br>
                         あなただけの上質空間。</h3>
                     <p class="c-anim-up">l.a.ttorti（ラットルティ）にはオートクチュールの洋服のように、お客様一人ひとりの美をトータルにサポートする、さまざまなこだわりがあります。<br>

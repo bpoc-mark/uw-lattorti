@@ -222,20 +222,18 @@ header .header_inner.row .btn_reserve {
 }
 
 header .big_menu {
-  visibility: hidden;
   overflow: auto;
   -webkit-overflow-scrolling: touch;
   width: 100%;
-  height: 0;
+  height: 100%;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   z-index: 1000;
-  background-color: #ffffff;
-  backdrop-filter: blur(3px);
   transition: all 300ms ease-in;
+  transform: translateX(-100%);
 }
 
 header .big_menu .overlay {
@@ -243,21 +241,21 @@ header .big_menu .overlay {
 }
 
 header .big_menu.active {
-  height: 100%;
-  visibility: visible;
+  transform: translateX(0);
 }
 
 header .big_menu .float_menu {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
   box-sizing: border-box;
   width: 100%;
+  height: 100%;
   background-color: #fff;
   position: fixed;
   top: 0;
   right: 0;
   z-index: 1001;
-  padding-left: 30px;
-  padding-top: 75px;
-  padding-bottom: 200px;
+  padding: 70px 30px;
 }
 
 header .big_menu .float_menu .row {
@@ -269,12 +267,12 @@ header .big_menu .float_menu .row .col {
   padding-top: 20px;
 }
 
-header .big_menu .float_menu .row .col:first-child {
+header .big_menu .float_menu .row .col:nth-of-type(1) {
   border-right: 1px solid #e6e6e6;
   width: 55%;
 }
 
-header .big_menu .float_menu .row .col:last-child {
+header .big_menu .float_menu .row .col:nth-of-type(2) {
   padding-left: 25px;
   width: 45%;
 }
@@ -324,14 +322,13 @@ header .big_menu .float_menu .row .col li .submenu li::before {
   bottom: 13px;
 }
 
-header .big_menu .float_menu .btn_cont {
+header .big_menu .float_menu .row .btn_cont {
   box-sizing: border-box;
-  padding-right: 20px;
   width: 100%;
   margin-top: 50px;
 }
 
-header .big_menu .float_menu .btn_cont p {
+header .big_menu .float_menu .row .btn_cont p {
   font-family: 'Marcellus', serif;
   font-weight: 400;
   font-size: 20px;
@@ -339,14 +336,14 @@ header .big_menu .float_menu .btn_cont p {
   padding-left: 5px;
 }
 
-header .big_menu .float_menu .btn_cont p span {
+header .big_menu .float_menu .row .btn_cont p span {
   font-family: 'Marcellus', serif;
   font-weight: 400;
   font-size: 14px;
   color: #161616;
 }
 
-header .big_menu .float_menu .btn_cont a {
+header .big_menu .float_menu .row .btn_cont a {
   display: block;
   width: 100%;
   text-align: center;
@@ -361,13 +358,13 @@ header .big_menu .float_menu .btn_cont a {
   transition: .3s ease;
 }
 
-header .big_menu .float_menu .btn_cont a:hover {
+header .big_menu .float_menu .row .btn_cont a:hover {
   color: #65696a;
   background-color: #fff;
   border: 1px solid #65696a;
 }
 
-header .big_menu .float_menu .btn_cont a::after {
+header .big_menu .float_menu .row .btn_cont a::after {
   content: "";
   display: block;
   width: 30px;
@@ -382,10 +379,11 @@ header .big_menu .float_menu .btn_cont a::after {
 header .big_menu .float_menu .menu {
   position: absolute;
   right: 20px;
-  top: 30px;
+  top: 20px;
   width: 45px;
   z-index: 1004;
   cursor: pointer;
+  overflow: hidden;
 }
 
 header .big_menu .float_menu .menu span {
@@ -399,16 +397,25 @@ header .big_menu .float_menu .menu span {
   height: 2px;
   margin: auto;
   transition: 0.3s;
+  transition-delay: .4s;
 }
 
-header .big_menu .float_menu .menu span.line-t {
+header .big_menu .float_menu .menu span.line-t-h {
   top: 20px;
-  transform: rotate(140deg);
+  transform: rotate(140deg) translateX(55px);
 }
 
-header .big_menu .float_menu .menu span.line-b {
+header .big_menu .float_menu .menu span.line-t-h.show {
+  transform: rotate(140deg) translateX(0);
+}
+
+header .big_menu .float_menu .menu span.line-b-h {
   top: 21px;
-  transform: rotate(-140deg);
+  transform: rotate(-140deg) translateX(55px);
+}
+
+header .big_menu .float_menu .menu span.line-b-h.show {
+  transform: rotate(-140deg) translateX(0);
 }
 
 header .big_menu .float_menu .menu p {
@@ -1183,13 +1190,18 @@ img[src$=".png"], img[src$=".jpg"] {
 /*==================================
   Top
 ==================================*/
-#Top main .sect_1 .wrapper .container {
+#Top main .sect_1 .wrapper {
   padding-right: 0;
   padding-left: 50px;
 }
 
-#Top main .sect_1 .wrapper .container img {
-  width: 100%;
+#Top main .sect_1 .wrapper .container {
+  height: 440px;
+  padding-right: 0;
+  padding-left: 0;
+  background-image: url(../images/top/sp/section_1/main.png);
+  background-size: cover;
+  background-position: center center;
 }
 
 #Top main .sect_2 .wrapper {
@@ -1294,7 +1306,7 @@ img[src$=".png"], img[src$=".jpg"] {
   transform: scaleX(-1);
 }
 
-#Top main .sect_2 .wrapper .container a {
+#Top main .sect_2 .wrapper .container .btn_viewmore {
   display: block;
   width: 201px;
   text-align: center;
@@ -1309,19 +1321,19 @@ img[src$=".png"], img[src$=".jpg"] {
   transition: .3s ease;
 }
 
-#Top main .sect_2 .wrapper .container a:hover {
+#Top main .sect_2 .wrapper .container .btn_viewmore:hover {
   color: #fff;
 }
 
-#Top main .sect_2 .wrapper .container a:hover::before {
+#Top main .sect_2 .wrapper .container .btn_viewmore:hover::before {
   width: 100%;
 }
 
-#Top main .sect_2 .wrapper .container a:hover::after {
+#Top main .sect_2 .wrapper .container .btn_viewmore:hover::after {
   background-color: #fff;
 }
 
-#Top main .sect_2 .wrapper .container a::after {
+#Top main .sect_2 .wrapper .container .btn_viewmore::after {
   content: "";
   display: block;
   transition: .3s ease;
@@ -1334,7 +1346,7 @@ img[src$=".png"], img[src$=".jpg"] {
   transform: translate(0, -50%);
 }
 
-#Top main .sect_2 .wrapper .container a::before {
+#Top main .sect_2 .wrapper .container .btn_viewmore::before {
   content: "";
   transition: .3s ease;
   display: block;

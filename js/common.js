@@ -26,15 +26,21 @@ $(function () {
   $('.menu').click(function(){
     if ($('.menu').hasClass("active")) {
       $('.menu').removeClass("active");
+      $('.line-t-h').removeClass("show");
+      $('.line-b-h').removeClass("show");
       $('.big_menu').removeClass("active");
     } else {
       $('.menu').addClass("active");
+      $('.line-t-h').addClass("show");
+      $('.line-b-h').addClass("show");
       $('.big_menu').addClass("active");
     }
   })
   
   $('.overlay').click(function(){
     $('.menu').removeClass("active");
+    $('.line-t-h').removeClass("show");
+    $('.line-b-h').removeClass("show");
     $('.big_menu').removeClass("active");
   })
 
