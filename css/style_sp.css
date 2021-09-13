@@ -2076,6 +2076,127 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 /*==================================
+  Access
+==================================*/
+#Topics_content main .jumbo_sect .wrapper .container .breadcrumb li:last-child a {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 400;
+  color: #565656;
+}
+
+#Topics_content main .sect_1 .wrapper {
+  padding-bottom: 70px;
+}
+
+#Topics_content main .sect_1 .wrapper .container .post_title {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #161616;
+  margin-bottom: 35px;
+}
+
+#Topics_content main .sect_1 .wrapper .container .row .col:nth-of-type(1) {
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+#Topics_content main .sect_1 .wrapper .container .row .col:nth-of-type(1) img {
+  width: 70%;
+}
+
+#Topics_content main .sect_1 .wrapper .container .row .col:nth-of-type(2) {
+  width: 100%;
+}
+
+#Topics_content main .sect_1 .wrapper .container .row .col:nth-of-type(2) .post_info {
+  margin-bottom: 25px;
+}
+
+#Topics_content main .sect_1 .wrapper .container .row .col:nth-of-type(2) .post_info .post_cat {
+  font-family: 'Marcellus', serif;
+  font-weight: 400;
+  font-size: 11px;
+  color: #161616;
+  padding-right: 10px;
+  margin-right: 5px;
+  border-right: 1px solid #d0d0d0;
+}
+
+#Topics_content main .sect_1 .wrapper .container .row .col:nth-of-type(2) .post_info .post_date {
+  font-family: 'Marcellus', serif;
+  font-weight: 400;
+  font-size: 10px;
+  color: #565656;
+}
+
+#Topics_content main .sect_1 .wrapper .container .row .col:nth-of-type(2) .post_content {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #565656;
+  line-height: 28.8px;
+  text-align: justify;
+}
+
+#Topics_content main .sect_1 .wrapper .container .row .col:nth-of-type(3) {
+  width: 100%;
+  padding-top: 40px;
+}
+
+#Topics_content main .sect_1 .wrapper .container .row .col:nth-of-type(3) a {
+  position: relative;
+  display: block;
+  width: 201px;
+  text-align: center;
+  border: 1px solid #dddddd;
+  padding: 18px 0;
+  font-family: 'Marcellus', serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #565656;
+  transition: .3s ease;
+}
+
+#Topics_content main .sect_1 .wrapper .container .row .col:nth-of-type(3) a:hover {
+  color: #fff;
+}
+
+#Topics_content main .sect_1 .wrapper .container .row .col:nth-of-type(3) a:hover::before {
+  width: 100%;
+}
+
+#Topics_content main .sect_1 .wrapper .container .row .col:nth-of-type(3) a:hover::after {
+  background-color: #fff;
+}
+
+#Topics_content main .sect_1 .wrapper .container .row .col:nth-of-type(3) a::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 1px;
+  background-color: #dddddd;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translate(0, -50%);
+}
+
+#Topics_content main .sect_1 .wrapper .container .row .col:nth-of-type(3) a::before {
+  content: "";
+  transition: .3s ease;
+  display: block;
+  width: 0%;
+  height: 100%;
+  background-color: #585959;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: -1;
+  transform: translate(0, -50%);
+}
+
+/*==================================
   Contact_reset
 ==================================*/
 main#Contact {
