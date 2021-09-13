@@ -50,64 +50,64 @@
           <div class="container">
             <div class="row">
               <div class="col">
-                <figure>
+                <figure class="c-anim-up">
                   <img src="/images/staff/img_1.png" alt="">
                 </figure>
-                <div class="staff_info">
+                <div class="staff_info c-anim-up">
                   <h5>Kenji Takeda</h5>
                   <p>竹田 賢治 <br> Owner / Stylist</p>
                 </div>
               </div>
               <div class="col">
-                <figure>
+                <figure class="c-anim-up">
                   <img src="/images/staff/img_2.png" alt="">
                 </figure>
-                <div class="staff_info">
+                <div class="staff_info c-anim-up">
                   <h5>Makiko Ota</h5>
                   <p>太田 麻紀子 <br> Stylist / Esthetician</p>
                 </div>
               </div>
               <div class="col">
-                <figure>
+                <figure class="c-anim-up">
                   <img src="/images/staff/img_3.png" alt="">
                 </figure>
-                <div class="staff_info">
+                <div class="staff_info c-anim-up">
                   <h5>Rieka Ozawa</h5>
                   <p>尾澤 里枝香 <br> Stylist / Nailist / Esthetician</p>
                 </div>
               </div>
               <div class="col">
-                <figure>
+                <figure class="c-anim-up">
                   <img src="/images/staff/img_4.png" alt="">
                 </figure>
-                <div class="staff_info">
+                <div class="staff_info c-anim-up">
                   <h5>Kanako Ota</h5>
                   <p>太田 可奈子 <br> Stylist / Eyelist / Esthetician</p>
                 </div>
               </div>
               <div class="col">
-                <figure>
+                <figure class="c-anim-up">
                   <img src="/images/staff/img_5.png" alt="">
                 </figure>
-                <div class="staff_info">
+                <div class="staff_info c-anim-up">
                   <h5>Moeka Araki</h5>
                   <p>荒木 萌華 <br> Nailist / Eyelist / Esthetician</p>
                 </div>
               </div>
               <div class="col">
-                <figure>
+                <figure class="c-anim-up">
                   <img src="/images/staff/img_6.png" alt="">
                 </figure>
-                <div class="staff_info">
+                <div class="staff_info c-anim-up">
                   <h5>Moeka Araki</h5>
                   <p>荒木 萌華 <br> Nailist / Eyelist / Esthetician</p>
                 </div>
               </div>
               <div class="col">
-                <figure>
+                <figure class="c-anim-up">
                   <img src="/images/staff/img_7.png" alt="">
                 </figure>
-                <div class="staff_info">
+                <div class="staff_info c-anim-up">
                   <h5>Sana Hasegawa</h5>
                   <p>長谷川 紗菜 <br> Eyelist / Esthetician</p>
                 </div>

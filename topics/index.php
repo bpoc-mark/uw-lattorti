@@ -48,8 +48,8 @@
       <section class="sect_1">
         <div class="wrapper">
           <div class="container">
-            <div class="post_cat_cont">
-              <span>CATEGORY : </span>
+            <div class="post_cat_cont c-anim-up">
+              <span>CATEGORY : <img src="/images/topics/arrow_down.png" alt=""></span>
               <ul class="post_cat">
                 <li>
                   <a href="">ALL</a>
@@ -69,7 +69,7 @@
               </ul>
             </div>
             <ul class="news_ul">
-              <li class="news_li">
+              <li class="news_li c-anim-up">
                 <a href="">
                   <span class="category">NEWS</span>
                   <span class="img_wrap"><img src="/images/topics/img_1.png" alt="ダミー画像"></span>
@@ -77,7 +77,7 @@
                   <span class="date">2021.04.30</span>
                 </a>
               </li>
-              <li class="news_li">
+              <li class="news_li c-anim-up">
                 <a href="">
                   <span class="category">PRODUCT</span>
                   <span class="img_wrap"><img src="/images/topics/img_2.png" alt="ダミー画像"></span>
@@ -85,7 +85,7 @@
                   <span class="date">2021.04.30</span>
                 </a>
               </li>
-              <li class="news_li">
+              <li class="news_li c-anim-up">
                 <a href="">
                   <span class="category">RECRUIT</span>
                   <span class="img_wrap"><img src="/images/topics/img_3.png" alt="ダミー画像"></span>
@@ -93,7 +93,7 @@
                   <span class="date">2021.04.30</span>
                 </a>
               </li>
-              <li class="news_li">
+              <li class="news_li c-anim-up">
                 <a href="">
                   <span class="category">MENU</span>
                   <span class="img_wrap"><img src="/images/topics/img_4.png" alt="ダミー画像"></span>
@@ -101,7 +101,7 @@
                   <span class="date">2021.04.30</span>
                 </a>
               </li>
-              <li class="news_li">
+              <li class="news_li c-anim-up">
                 <a href="">
                   <span class="category">NEWS</span>
                   <span class="img_wrap"><img src="/images/topics/img_1.png" alt="ダミー画像"></span>
@@ -109,7 +109,7 @@
                   <span class="date">2021.04.30</span>
                 </a>
               </li>
-              <li class="news_li">
+              <li class="news_li c-anim-up">
                 <a href="">
                   <span class="category">PRODUCT</span>
                   <span class="img_wrap"><img src="/images/topics/img_2.png" alt="ダミー画像"></span>
@@ -117,7 +117,7 @@
                   <span class="date">2021.04.30</span>
                 </a>
               </li>
-              <li class="news_li">
+              <li class="news_li c-anim-up">
                 <a href="">
                   <span class="category">RECRUIT</span>
                   <span class="img_wrap"><img src="/images/topics/img_3.png" alt="ダミー画像"></span>
@@ -125,7 +125,7 @@
                   <span class="date">2021.04.30</span>
                 </a>
               </li>
-              <li class="news_li">
+              <li class="news_li c-anim-up">
                 <a href="">
                   <span class="category">MENU</span>
                   <span class="img_wrap"><img src="/images/topics/img_4.png" alt="ダミー画像"></span>
@@ -133,7 +133,7 @@
                   <span class="date">2021.04.30</span>
                 </a>
               </li>
-              <li class="news_li">
+              <li class="news_li c-anim-up">
                 <a href="">
                   <span class="category">NEWS</span>
                   <span class="img_wrap"><img src="/images/topics/img_1.png" alt="ダミー画像"></span>
@@ -141,7 +141,7 @@
                   <span class="date">2021.04.30</span>
                 </a>
               </li>
-              <li class="news_li">
+              <li class="news_li c-anim-up">
                 <a href="">
                   <span class="category">PRODUCT</span>
                   <span class="img_wrap"><img src="/images/topics/img_2.png" alt="ダミー画像"></span>
@@ -149,7 +149,7 @@
                   <span class="date">2021.04.30</span>
                 </a>
               </li>
-              <li class="news_li">
+              <li class="news_li c-anim-up">
                 <a href="">
                   <span class="category">RECRUIT</span>
                   <span class="img_wrap"><img src="/images/topics/img_3.png" alt="ダミー画像"></span>
@@ -157,7 +157,7 @@
                   <span class="date">2021.04.30</span>
                 </a>
               </li>
-              <li class="news_li">
+              <li class="news_li c-anim-up">
                 <a href="">
                   <span class="category">MENU</span>
                   <span class="img_wrap"><img src="/images/topics/img_4.png" alt="ダミー画像"></span>
@@ -168,7 +168,7 @@
             </ul>
 
             <!-- Wordpress -->
-            <div class="page_navigation">
+            <div class="page_navigation  c-anim-up">
               <div class="wp-pagenavi">
                 <a class="previouspostslink" href="#" rel="prev"><img src="/images/topics/arrow.svg" alt=""></a>
                 <span class="current">1</span>

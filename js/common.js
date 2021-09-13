@@ -18,10 +18,18 @@ $(function () {
     $('html').toggleClass('no_move');
   });
 
-  var w = $(window).width();
-  if (w < 900) {
-
-  }
+  // flag to allow clicking
+  var clickAllowed = true;
+  $(window).on('load resize', function () {
+    var w = $(window).width();
+    if (w < 900) {
+      clickAllowed = true;
+    }
+    else{
+      clickAllowed = false;
+      $('.post_cat').removeAttr('style');
+    }
+ })
 
   $('.menu').click(function(){
     if ($('.menu').hasClass("active")) {
@@ -43,6 +51,11 @@ $(function () {
     $('.line-b-h').removeClass("show");
     $('.big_menu').removeClass("active");
   })
+
+  $('.post_cat_cont span').click(function(){
+    $('.post_cat').slideToggle();
+    $('.post_cat_cont span img').toggleClass('active');
+  });
 
 });
 

@@ -1146,6 +1146,13 @@ img[src$=".png"], img[src$=".jpg"] {
   color: #fff;
 }
 
+@media (max-width: 899px) {
+  .page_navigation .wp-pagenavi > .page,
+  .page_navigation .wp-pagenavi .current {
+    margin: 0 5px;
+  }
+}
+
 .page_navigation .wp-pagenavi .nextpostslink,
 .page_navigation .wp-pagenavi .previouspostslink {
   position: relative;
@@ -1161,7 +1168,7 @@ img[src$=".png"], img[src$=".jpg"] {
 
 .page_navigation .wp-pagenavi .nextpostslink.previouspostslink,
 .page_navigation .wp-pagenavi .previouspostslink.previouspostslink {
-  margin-right: 30px;
+  margin-right: 10px;
 }
 
 .page_navigation .wp-pagenavi .nextpostslink.previouspostslink img,
@@ -1192,6 +1199,14 @@ img[src$=".png"], img[src$=".jpg"] {
   .page_navigation .wp-pagenavi .nextpostslink.nextpostslink:hover img,
   .page_navigation .wp-pagenavi .previouspostslink.nextpostslink:hover img {
     right: -5px;
+  }
+}
+
+@media (max-width: 899px) {
+  .page_navigation .wp-pagenavi .nextpostslink.nextpostslink,
+  .page_navigation .wp-pagenavi .previouspostslink.nextpostslink {
+    padding-right: 0;
+    margin-left: 10px;
   }
 }
 
@@ -1269,7 +1284,8 @@ img[src$=".png"], img[src$=".jpg"] {
 	POST CATEGORY
 ==================================*/
 .post_cat_cont {
-  display: none;
+  position: relative;
+  display: flex;
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 60px;
@@ -1280,6 +1296,10 @@ img[src$=".png"], img[src$=".jpg"] {
   font-weight: 400;
   font-size: 17px;
   color: #161616;
+}
+
+.post_cat_cont span img {
+  display: none;
 }
 
 .post_cat_cont .post_cat {
@@ -1305,6 +1325,52 @@ img[src$=".png"], img[src$=".jpg"] {
 
 .post_cat_cont .post_cat li a:hover {
   color: #c0c0c0;
+}
+
+@media (max-width: 899px) {
+  .post_cat_cont {
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+  }
+  .post_cat_cont span {
+    position: relative;
+    width: 100%;
+    padding: 20px 15px;
+    background-color: #f4f5f5;
+    font-size: 16px;
+  }
+  .post_cat_cont span img {
+    display: block;
+    width: 15px;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    transition: .5s ease;
+  }
+  .post_cat_cont span img.active {
+    transform: rotate(180deg);
+  }
+  .post_cat_cont .post_cat {
+    display: none;
+    overflow-y: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    border: 1px solid #f4f5f5;
+    background-color: #fff;
+    height: 230px;
+    position: absolute;
+    top: 56px;
+    left: 0;
+    z-index: 3;
+  }
+  .post_cat_cont .post_cat li {
+    padding: 10px 15px;
+    width: 100%;
+  }
+  .post_cat_cont .post_cat li:not(:last-child) {
+    border-right: none;
+    border-bottom: 1px solid #f4f5f5;
+  }
 }
 
 /*==========================================
