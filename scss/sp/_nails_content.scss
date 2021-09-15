@@ -1,0 +1,150 @@
+/*==================================
+  Access
+==================================*/
+#Nails_content main {
+  .jumbo_sect{
+    .wrapper{
+      .container{
+        .breadcrumb{
+          li{
+            &:last-child{
+              a{
+                @include Noto_Serif(400);
+                color: #565656;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .sect_1{
+    .wrapper{
+      padding-bottom: 70px;
+      .container{
+        .post_cat_cont{
+          .post_cat{
+            li{
+              a{
+                @include Noto_Serif(300);
+              }
+            }
+          }
+        }
+        .row{
+          position: relative;
+          .col{
+            position: unset;
+            &:nth-of-type(1){
+              width: 95%;
+              margin: 100px auto 0;
+              img{
+                width: 100%;
+              }
+              .post_img_list{
+                margin-top: 20px;
+                display: flex;
+                justify-content: flex-start;
+                img{
+                  width: 24.5%;
+                  &:not(:first-child){
+                    margin-left: .7%;
+                  }
+                }
+              }
+            }
+            &:nth-of-type(2){
+              width: 100%;
+              padding-top: 30px;
+              .post_cat{
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                margin-bottom: 20px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                span{
+                  @include Noto_Serif(300);
+                  font-size: 10px;
+                  color: #161616;
+                  &:not(:last-child){
+                    border-right: 1px solid #d0d0d0;
+                    padding-right: 10px;
+                    margin-right: 10px;
+                  }
+                }
+              }
+              .post_title{
+                @include Noto_Serif(300);
+                font-size: 20px;
+                color: #161616;
+                border-bottom: 1px solid #d0d0d0;
+                padding-bottom: 15px;
+                width: 100%;
+                position: absolute;
+                top: 20px;
+                left: 0;
+              }
+              .post_content{
+                @include Noto_Serif(300);
+                font-size: 16px;
+                color: #565656;
+                line-height: 32px;
+              }
+            }
+            &:nth-of-type(3){
+              width: 100%;
+              padding-top: 35px;
+              a{
+                position: relative;
+                display: block;
+                width: 250px;
+                text-align: center;
+                border: 1px solid #dddddd;
+                padding: 20px 0;
+                @include Marcellus(400);
+                font-size: 14px;
+                color: #565656;
+                transition: .3s ease;
+                &:hover{
+                  color: #fff;
+                  &::before{
+                    width: 100%;
+                  }
+                  &::after{
+                    background-color: #fff;
+                  }
+                }
+                &::after{
+                  content: "";
+                  display: block;
+                  width: 30px;
+                  height: 1px;
+                  background-color: #dddddd;
+                  position: absolute;
+                  top: 50%;
+                  right: 20px;
+                  transform: translate(0, -50%);
+                }
+                &::before{
+                  content: "";
+                  transition: .3s ease;
+                  display: block;
+                  width: 0%;
+                  height: 100%;
+                  background-color: #585959;
+                  position: absolute;
+                  top: 50%;
+                  left: 0;
+                  z-index: -1;
+                  transform: translate(0, -50%);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

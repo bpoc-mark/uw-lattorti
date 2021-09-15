@@ -52,7 +52,7 @@
               <span>CATEGORY : <img src="/images/topics/arrow_down.png" alt=""></span>
               <ul class="post_cat">
                 <li>
-                  <a href="">ALL</a>
+                  <a href="" class="active">ALL</a>
                 </li>
                 <li>
                   <a href="">NEWS</a>

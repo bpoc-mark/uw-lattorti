@@ -97,6 +97,8 @@ img {
   }
 
   @include sp {
+    position: relative;
+    z-index: 1;
     .news_li {
       width: 100%;
       margin-bottom: 0;
@@ -334,11 +336,15 @@ img {
         &:hover{
           color: #c0c0c0;
         }
+        &.active{
+          color:#c0c0c0;
+        }
       }
     }
   }
 
   @include sp{
+    z-index: 5;
     flex-wrap: wrap;
     margin-bottom: 35px;
     span{
@@ -366,11 +372,11 @@ img {
       flex-wrap: wrap;
       border: 1px solid #f4f5f5;
       background-color: #fff;
-      height: 230px;
+      max-height: 230px;
       position: absolute;
       top: 56px;
       left: 0;
-      z-index: 3;
+      z-index: 5;
       li{
         padding: 10px 15px;
         width: 100%;
