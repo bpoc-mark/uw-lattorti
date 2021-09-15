@@ -60,7 +60,12 @@ $(function () {
   $('.post_img_list img').each(function(){
     $(this).click(function(){
       var src = $(this).attr('src');
-      $('.post_img_main').attr('src', src)
+      // $('.post_img_main').attr('src', src);
+
+      $(".post_img_main").fadeTo(300,0.30, function() {
+          $(".post_img_main").attr("src",src);
+      }).fadeTo(300,1);
+      // return false;
     })
   })
 
