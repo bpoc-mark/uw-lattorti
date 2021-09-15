@@ -1,7 +1,7 @@
 /*==================================
-  Nails Content
+  Hair content
 ==================================*/
-#Nails_content main {
+#Hair_content main {
   .jumbo_sect{
     .wrapper{
       .container{
@@ -20,7 +20,7 @@
   }
   .sect_1{
     .wrapper{
-      padding-bottom: 70px;
+      padding-bottom: 150px;
       .container{
         .post_cat_cont{
           .post_cat{
@@ -34,17 +34,24 @@
         .row{
           position: relative;
           .col{
-            position: unset;
             &:nth-of-type(1){
-              width: 95%;
-              margin: 100px auto 0;
+              position: unset;
+              width: 40%;
               img{
                 width: 100%;
               }
               .post_img_list{
                 margin-top: 20px;
+                position: absolute;
+                z-index: 10;
+                bottom: 105px;
+                left: calc(40% + 90px);
                 display: flex;
                 justify-content: flex-start;
+                width: 40%;
+                @media screen and (max-width: 1200px) {
+                  bottom: 0;
+                }
                 img{
                   width: 24.5%;
                   &:not(:first-child){
@@ -54,48 +61,43 @@
               }
             }
             &:nth-of-type(2){
-              width: 100%;
+              width: 60%;
+              padding-left: 90px;
               padding-top: 30px;
               .post_cat{
                 display: flex;
                 align-items: center;
                 justify-content: flex-start;
                 margin-bottom: 20px;
-                position: absolute;
-                top: 0;
-                left: 0;
                 span{
                   @include Noto_Serif(300);
-                  font-size: 10px;
+                  font-size: 14px;
                   color: #161616;
                   &:not(:last-child){
                     border-right: 1px solid #d0d0d0;
-                    padding-right: 10px;
-                    margin-right: 10px;
+                    padding-right: 15px;
+                    margin-right: 15px;
                   }
                 }
               }
               .post_title{
                 @include Noto_Serif(300);
-                font-size: 20px;
+                font-size: 26px;
                 color: #161616;
                 border-bottom: 1px solid #d0d0d0;
-                padding-bottom: 15px;
-                width: 100%;
-                position: absolute;
-                top: 20px;
-                left: 0;
+                padding-bottom: 25px;
+                margin-bottom: 40px;
               }
               .post_content{
                 @include Noto_Serif(300);
                 font-size: 16px;
                 color: #565656;
-                line-height: 32px;
+                line-height: 38.4px;
               }
             }
             &:nth-of-type(3){
               width: 100%;
-              padding-top: 35px;
+              padding-top: 50px;
               a{
                 position: relative;
                 display: block;

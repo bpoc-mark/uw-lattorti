@@ -324,6 +324,7 @@ img {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    flex-wrap: wrap;
     li{
       padding: 0 20px;
       &:not(:last-child){
