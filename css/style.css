@@ -2804,6 +2804,365 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 /*==================================
+  Recruit
+==================================*/
+#Recruit main .sect_1 .wrapper {
+  padding-bottom: 150px;
+}
+
+#Recruit main .sect_1 .wrapper .txt_head.container h3 {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 300;
+  font-size: 30px;
+  color: #161616;
+  line-height: 51px;
+  margin-bottom: 45px;
+}
+
+#Recruit main .sect_1 .wrapper .txt_head.container p {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #565656;
+  line-height: 38.4px;
+  margin-bottom: 100px;
+}
+
+#Recruit main .sect_1 .wrapper .point_cont {
+  margin-bottom: 120px;
+}
+
+#Recruit main .sect_1 .wrapper .point_cont h3 {
+  font-family: 'Marcellus', serif;
+  font-weight: 400;
+  font-size: 34px;
+  color: #161616;
+  line-height: 45px;
+  margin-bottom: 40px;
+}
+
+#Recruit main .sect_1 .wrapper .point_cont h3 span {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 300;
+  font-size: 15px;
+  color: #161616;
+}
+
+#Recruit main .sect_1 .wrapper .point_cont .row {
+  border: 1px solid #dddddd;
+}
+
+#Recruit main .sect_1 .wrapper .point_cont .row .col {
+  width: 50%;
+  padding: 70px 40px 70px 30px;
+}
+
+#Recruit main .sect_1 .wrapper .point_cont .row .col:nth-of-type(1) {
+  border-right: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+
+#Recruit main .sect_1 .wrapper .point_cont .row .col:nth-of-type(2) {
+  border-bottom: 1px solid #dddddd;
+}
+
+#Recruit main .sect_1 .wrapper .point_cont .row .col:nth-of-type(3) {
+  border-right: 1px solid #dddddd;
+}
+
+#Recruit main .sect_1 .wrapper .point_cont .row .col span {
+  font-family: 'Marcellus', serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #161616;
+}
+
+#Recruit main .sect_1 .wrapper .point_cont .row .col h4 {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 300;
+  font-size: 24px;
+  color: #161616;
+  line-height: 34px;
+  margin: 30px 0;
+}
+
+#Recruit main .sect_1 .wrapper .point_cont .row .col p {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  color: #565656;
+}
+
+#Recruit main .sect_1 .wrapper .voice_cont {
+  margin-bottom: 50px;
+}
+
+#Recruit main .sect_1 .wrapper .voice_cont h3 {
+  font-family: 'Marcellus', serif;
+  font-weight: 400;
+  font-size: 34px;
+  color: #161616;
+  line-height: 45px;
+  margin-bottom: 40px;
+}
+
+#Recruit main .sect_1 .wrapper .voice_cont h3 span {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 300;
+  font-size: 15px;
+  color: #161616;
+}
+
+#Recruit main .sect_1 .wrapper .voice_cont .row {
+  justify-content: space-between;
+}
+
+#Recruit main .sect_1 .wrapper .voice_cont .row .col {
+  width: 31%;
+  text-align: right;
+  margin-bottom: 50px;
+}
+
+#Recruit main .sect_1 .wrapper .voice_cont .row .col:nth-of-type(3) .txt_cont p:nth-of-type(1) {
+  padding-bottom: 62px;
+}
+
+#Recruit main .sect_1 .wrapper .voice_cont .row .col:nth-of-type(4) .txt_cont p:nth-of-type(1) {
+  padding-bottom: 62px;
+}
+
+#Recruit main .sect_1 .wrapper .voice_cont .row .col:nth-of-type(6) .txt_cont p:nth-of-type(1) {
+  padding-bottom: 61px;
+}
+
+#Recruit main .sect_1 .wrapper .voice_cont .row .col .txt_cont {
+  position: relative;
+  z-index: 1;
+  margin-top: -75px;
+  text-align: left;
+  background-color: #fff;
+  width: 87%;
+  padding: 30px 30px 30px 10px;
+}
+
+#Recruit main .sect_1 .wrapper .voice_cont .row .col .txt_cont h4 {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: #161616;
+  margin-bottom: 20px;
+}
+
+#Recruit main .sect_1 .wrapper .voice_cont .row .col .txt_cont p {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  color: #565656;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #dde1e1;
+  margin-bottom: 20px;
+}
+
+#Recruit main .sect_1 .wrapper .voice_cont .row .col .txt_cont p:nth-of-type(2) {
+  padding-bottom: unset;
+  border-bottom: none;
+  margin-bottom: unset;
+  color: #161616;
+}
+
+#Recruit main .sect_1 .wrapper .voice_cont .row .col .txt_cont p:nth-of-type(2) span {
+  font-size: 14px;
+  color: #161616;
+}
+
+#Recruit main .sect_1 .wrapper .img_cont.container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#Recruit main .sect_1 .wrapper .img_cont .row .col {
+  width: 25%;
+}
+
+#Recruit main .sect_1 .wrapper .training_cont {
+  margin-bottom: 170px;
+}
+
+#Recruit main .sect_1 .wrapper .training_cont .row .col {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#Recruit main .sect_1 .wrapper .training_cont .row .col:first-child {
+  width: 55%;
+  padding: 150px 120px 15px 50px;
+  border-left: 1px solid #dde1e1;
+  border-right: 1px solid #dde1e1;
+}
+
+#Recruit main .sect_1 .wrapper .training_cont .row .col:last-child {
+  width: 45%;
+  padding: 150px 0 15px 50px;
+}
+
+#Recruit main .sect_1 .wrapper .training_cont .row .col .col_head {
+  font-family: 'Marcellus', serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #161616;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  position: relative;
+  top: -30px;
+  padding-right: 50px;
+}
+
+#Recruit main .sect_1 .wrapper .training_cont .row .col .list span {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #161616;
+}
+
+#Recruit main .sect_1 .wrapper .training_cont .row .col .list ul {
+  margin-top: 20px;
+  list-style: none;
+}
+
+#Recruit main .sect_1 .wrapper .training_cont .row .col .list ul li p {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #565656;
+  line-height: 36.8px;
+  text-indent: -22px;
+  margin-left: 22px;
+}
+
+#Recruit main .sect_1 .wrapper .information_cont .row .col:first-child {
+  width: 400px;
+}
+
+#Recruit main .sect_1 .wrapper .information_cont .row .col:first-child h3 {
+  font-family: 'Marcellus', serif;
+  font-weight: 400;
+  font-size: 34px;
+  color: #161616;
+  line-height: 45px;
+  margin-top: -20px;
+}
+
+#Recruit main .sect_1 .wrapper .information_cont .row .col:first-child h3 span {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 300;
+  font-size: 15px;
+  color: #161616;
+}
+
+#Recruit main .sect_1 .wrapper .information_cont .row .col:last-child {
+  width: calc(100% - 400px);
+}
+
+#Recruit main .sect_1 .wrapper .information_cont .row .col:last-child .row {
+  border-top: 1px solid #dde1e1;
+  padding: 30px 20px;
+}
+
+#Recruit main .sect_1 .wrapper .information_cont .row .col:last-child .row .col:first-child {
+  width: 35%;
+}
+
+#Recruit main .sect_1 .wrapper .information_cont .row .col:last-child .row .col:last-child {
+  width: 65%;
+}
+
+#Recruit main .sect_1 .wrapper .information_cont .row .col:last-child .row .col p {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #565656;
+  line-height: 44.8px;
+}
+
+#Recruit main .sect_1 .wrapper .information_cont .row .col:last-child .row:last-child {
+  padding: 30px 0;
+  align-items: center;
+}
+
+#Recruit main .sect_1 .wrapper .information_cont .row .col:last-child .row:last-child .col:first-child {
+  width: 55%;
+}
+
+@media only screen and (max-width: 1150px) {
+  #Recruit main .sect_1 .wrapper .information_cont .row .col:last-child .row:last-child .col:first-child {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+#Recruit main .sect_1 .wrapper .information_cont .row .col:last-child .row:last-child .col:last-child {
+  width: 45%;
+}
+
+@media only screen and (max-width: 1150px) {
+  #Recruit main .sect_1 .wrapper .information_cont .row .col:last-child .row:last-child .col:last-child {
+    width: 100%;
+  }
+}
+
+#Recruit main .sect_1 .wrapper .information_cont .row .col:last-child .row:last-child .col p {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #161616;
+}
+
+#Recruit main .sect_1 .wrapper .information_cont .row .col:last-child .row:last-child .col p br {
+  display: none;
+}
+
+#Recruit main .sect_1 .wrapper .information_cont .row .col:last-child .row:last-child .col .btn_tel {
+  font-family: 'Marcellus', serif;
+  font-weight: 400;
+  color: #161616;
+  font-size: 36px;
+  letter-spacing: 0.16em;
+}
+
+#Recruit main .sect_1 .wrapper .information_cont .row .col:last-child .row:last-child .col .btn_tel span {
+  font-size: 22px;
+}
+
+#Recruit main .sect_1 .wrapper .information_cont .row .col:last-child .row:last-child .col .btn_entry {
+  font-family: 'Marcellus', serif;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+  background-color: #585959;
+  display: block;
+  max-width: 100%;
+  margin: 10px auto 0;
+  padding: 25px 0;
+  position: relative;
+}
+
+#Recruit main .sect_1 .wrapper .information_cont .row .col:last-child .row:last-child .col .btn_entry::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 1px;
+  background-color: #949798;
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translate(0, -50%);
+}
+
+/*==================================
   Contact_reset
 ==================================*/
 main#Contact {
