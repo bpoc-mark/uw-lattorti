@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA;;oCAEoC;AACpC,AAEI,MAFE,CAAC,IAAI,CACT,OAAO,CACL,QAAQ,CAAA;EACN,cAAc,EAAE,IAAI;CACrB",
+    "sources": [
+        "../scss/salon.scss"
+    ],
+    "names": [],
+    "file": "salon.css"
+}

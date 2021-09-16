@@ -1,0 +1,92 @@
+/*==================================
+  Salon
+==================================*/
+#Salon main {
+  .sect_1{
+    .wrapper{
+      padding-bottom: 70px;
+      .container{
+        h3{
+          @include Noto_Serif(300);
+          font-size: 19px;
+          color: #161616;
+          line-height: 34px;
+          margin-bottom: 20px;
+        }
+        p{
+          @include Noto_Serif(300);
+          font-size: 16px;
+          color: #565656;
+          line-height: 32px;
+          margin-bottom: 50px;
+          br{
+            display: none;
+          }
+        }
+      }
+      .img_cont{
+        &.container{
+          padding-left: 0;
+          padding-right: 0;
+        }
+        &.row{
+          .col{
+            width: 50%;
+            picture{
+              width: 100%;
+              img{
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+      .txt_cont{
+        .item{
+          width: 100%;
+          span{
+            @include Marcellus(400);
+            font-size: 30px;
+            color: #161616;
+            padding-right: 35px;
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            position: relative;
+            top: -15px;
+          }
+          p{
+            margin: 0;
+            letter-spacing: -1px;
+            br{
+              display: block;
+            }
+          }
+          &:nth-of-type(1){
+            padding: 55px 0 0 0;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+          }
+          &:nth-of-type(2){
+            padding: 50px 0 0 0;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            p{
+              letter-spacing: unset;
+            }
+          }
+          &:nth-of-type(3){
+            padding: 50px 0 0 0;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            p{
+              letter-spacing: unset;
+            }
+          }
+        }
+      }
+    }
+  }
+}
