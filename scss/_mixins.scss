@@ -55,6 +55,12 @@ $font-color: #000;
   font-weight: $weight;
 }
 
+@mixin Cormorant($weight: 400) {
+  font-family: 'Cormorant Infant', serif;
+  font-weight: $weight;
+}
+
+
 // Medium @include YuGo;
 @mixin YuGo {
   font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体";

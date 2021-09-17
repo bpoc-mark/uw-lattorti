@@ -3163,6 +3163,257 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 /*==================================
+  Menu Hair
+==================================*/
+#Menu_hair main .sect_1 .wrapper {
+  padding-bottom: 150px;
+}
+
+#Menu_hair main .sect_1 .wrapper .menu_banner {
+  margin-bottom: 80px;
+}
+
+#Menu_hair main .sect_1 .wrapper .menu_banner .row {
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f4f5f5;
+  padding: 30px 50px 20px;
+}
+
+#Menu_hair main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(1) {
+  width: 33%;
+}
+
+#Menu_hair main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(1) h3 {
+  font-family: 'Cormorant Infant', serif;
+  font-weight: 500;
+  font-size: 50px;
+  color: #161616;
+  line-height: 35.5px;
+  text-align: center;
+  border-bottom: 1px solid #d7dcdc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+#Menu_hair main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(1) h3 span {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #161616;
+}
+
+#Menu_hair main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(1) p:nth-of-type(1) {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #161616;
+  text-align: center;
+}
+
+#Menu_hair main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(1) p:nth-of-type(2) {
+  font-family: "Noto Sans JP";
+  font-weight: 400;
+  font-size: 12px;
+  color: #565656;
+  text-align: center;
+}
+
+#Menu_hair main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(1) p:nth-of-type(2) br {
+  display: none;
+}
+
+#Menu_hair main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(1) h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Cormorant Infant', serif;
+  font-weight: 600;
+  font-size: 67px;
+  color: #837d6a;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1400px) {
+  #Menu_hair main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(1) h4 {
+    font-size: 4.786vw;
+  }
+}
+
+#Menu_hair main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(1) h4 span:nth-of-type(1) {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: #fff;
+  line-height: 17px;
+  background-color: #837d6a;
+  padding: 7px 8px;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 1400px) {
+  #Menu_hair main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(1) h4 span:nth-of-type(1) {
+    font-size: 1vw;
+  }
+}
+
+#Menu_hair main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(1) h4 span:nth-of-type(2) {
+  font-family: 'Cormorant Infant', serif;
+  font-weight: 600;
+  font-size: 44px;
+  color: #837d6a;
+  position: relative;
+  top: 6px;
+}
+
+@media only screen and (max-width: 1400px) {
+  #Menu_hair main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(1) h4 span:nth-of-type(2) {
+    font-size: 3.143vw;
+  }
+}
+
+#Menu_hair main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(2) {
+  display: none;
+}
+
+#Menu_hair main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(3) {
+  width: 64%;
+}
+
+#Menu_hair main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(3) .row {
+  padding: 0;
+}
+
+#Menu_hair main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(3) .row .col {
+  width: 19.8%;
+  margin-bottom: 10px;
+}
+
+#Menu_hair main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(3) .row .col:nth-of-type(2) {
+  display: block;
+}
+
+#Menu_hair main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(3) .row .col p {
+  background-color: #65696a;
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1400px) {
+  #Menu_hair main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(3) .row .col p {
+    font-size: .9vw;
+  }
+}
+
+#Menu_hair main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(3) .row .col p br {
+  display: none;
+}
+
+#Menu_hair main .sect_1 .wrapper .price_cont .row:not(:last-child) {
+  margin-bottom: 100px;
+}
+
+#Menu_hair main .sect_1 .wrapper .price_cont .row:last-child .col:last-child .row {
+  margin-bottom: 0;
+}
+
+#Menu_hair main .sect_1 .wrapper .price_cont .row .col:first-child {
+  width: 35%;
+}
+
+#Menu_hair main .sect_1 .wrapper .price_cont .row .col:first-child h3 {
+  font-family: 'Marcellus', serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #161616;
+  line-height: 35px;
+  margin-top: -10px;
+}
+
+#Menu_hair main .sect_1 .wrapper .price_cont .row .col:first-child h3 span {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 300;
+  font-size: 15px;
+  color: #161616;
+}
+
+#Menu_hair main .sect_1 .wrapper .price_cont .row .col:last-child {
+  width: 65%;
+}
+
+#Menu_hair main .sect_1 .wrapper .price_cont .row .col:last-child .highlight_cont.row {
+  margin-bottom: 40px;
+}
+
+#Menu_hair main .sect_1 .wrapper .price_cont .row .col:last-child .highlight_cont.row .col {
+  padding: 0;
+  border-top: none;
+  border-bottom: none;
+}
+
+#Menu_hair main .sect_1 .wrapper .price_cont .row .col:last-child .highlight_cont.row .col:first-child {
+  width: 30%;
+}
+
+#Menu_hair main .sect_1 .wrapper .price_cont .row .col:last-child .highlight_cont.row .col:last-child {
+  width: 70%;
+  border-bottom: none;
+  padding-left: 40px;
+}
+
+#Menu_hair main .sect_1 .wrapper .price_cont .row .col:last-child .highlight_cont.row .col:last-child p {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #565656;
+  line-height: 32px;
+}
+
+#Menu_hair main .sect_1 .wrapper .price_cont .row .col:last-child .row .col {
+  width: 100%;
+  padding: 30px 5px 30px 15px;
+  border-top: 1px solid #dde1e1;
+  display: flex;
+  justify-content: space-between;
+}
+
+#Menu_hair main .sect_1 .wrapper .price_cont .row .col:last-child .row .col:last-child {
+  border-bottom: 1px solid #dde1e1;
+}
+
+#Menu_hair main .sect_1 .wrapper .price_cont .row .col:last-child .row .col span {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #565656;
+  line-height: 20px;
+}
+
+#Menu_hair main .sect_1 .wrapper .price_cont .row .col:last-child .row .col span:first-child {
+  width: 75%;
+  text-align: left;
+}
+
+#Menu_hair main .sect_1 .wrapper .price_cont .row .col:last-child .row .col span:last-child {
+  width: 25%;
+  text-align: right;
+}
+
+#Menu_hair main .sect_1 .wrapper .price_cont .row .col:last-child .desc {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 300;
+  font-size: 13px;
+  color: #565656;
+  text-align: right;
+  margin-top: 30px;
+}
+
+/*==================================
   Contact_reset
 ==================================*/
 main#Contact {

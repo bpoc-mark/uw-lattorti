@@ -140,7 +140,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // Webfont読込
 window.WebFontConfig = {
   google: {
-    families: ['Barlow+Condensed:500','Oswald:400,600', 'Marcellus:400', 'Noto+Serif+JP:200,300,400,500,600,700,900', 'Noto+Sans+JP:300,400,500&subset=japanese']
+    families: ['Barlow+Condensed:500','Oswald:400,600', 'Marcellus:400','Cormorant+Infant:300,400,500,600', 'Noto+Serif+JP:200,300,400,500,600,700,900', 'Noto+Sans+JP:300,400,500&subset=japanese']
   },
   active: function () {
     sessionStorage.fonts = true;
