@@ -287,13 +287,11 @@
                 </h3>
               </div>
               <div class="col">
-                <div class="highlight_cont row c-anim-up">
-                  <div class="col">
+                <div class="highlight_cont c-anim-up">
+                  <figure>
                     <img src="/images/menu_hair/img_1.png" alt="">
-                  </div>
-                  <div class="col">
-                    <p>テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
-                  </div>
+                  </figure>
+                  <p>テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
                 </div>
                 <div class="row">
                   <div class="col c-anim-up">
@@ -315,13 +313,11 @@
                 </h3>
               </div>
               <div class="col">
-                <div class="highlight_cont row c-anim-up">
-                  <div class="col">
+                <div class="highlight_cont c-anim-up">
+                  <figure>
                     <img src="/images/menu_hair/img_1.png" alt="">
-                  </div>
-                  <div class="col">
-                    <p>テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
-                  </div>
+                  </figure>
+                  <p>テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
                 </div>
                 <div class="row">
                   <div class="col c-anim-up">
@@ -343,13 +339,11 @@
                 </h3>
               </div>
               <div class="col">
-                <div class="highlight_cont row c-anim-up">
-                  <div class="col">
+                <div class="highlight_cont c-anim-up">
+                  <figure>
                     <img src="/images/menu_hair/img_1.png" alt="">
-                  </div>
-                  <div class="col">
-                    <p>テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
-                  </div>
+                  </figure>
+                  <p>テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。</p>
                 </div>
                 <div class="row">
                   <div class="col c-anim-up">

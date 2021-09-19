@@ -1,7 +1,7 @@
 /*==================================
   Menu Hair
 ==================================*/
-#Menu_hair main {
+#Beauty_menu main {
   .sect_1{
     .wrapper{
       padding-bottom: 75px;
@@ -169,6 +169,63 @@
               &:last-child{
                 .row{
                   margin-bottom: 0;
+                  &:nth-of-type(2){
+                    .col{
+                      flex-wrap: wrap;
+                      span{
+                        width: 100%;
+                        &:first-child{
+                          margin-bottom: 10px;
+                        }
+                      }
+                    }
+                  }
+                  &:nth-of-type(3){
+                    .col{
+                      flex-wrap: wrap;
+                      span{
+                        width: 100%;
+                        &:first-child{
+                          margin-bottom: 10px;
+                        }
+                      }
+                    }
+                  }
+                  &:nth-of-type(5){
+                    .col{
+                      flex-wrap: wrap;
+                      span{
+                        width: 100%;
+                        &:first-child{
+                          margin-bottom: 10px;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          &:nth-of-type(1){
+            .col{
+              &:last-child{
+                .row{
+                  margin-bottom: 0;
+                  .col{
+                    &:nth-of-type(2){
+                      flex-wrap: wrap;
+                      span{
+                        &:first-child{
+                          width: 55%;
+                          text-indent: 10px;
+                          margin-left: -10px;
+                        }
+                        &:last-child{
+                          width: 45%;
+                        }
+                      }
+                    }
+                  }
                 }
               }
             }
@@ -211,7 +268,31 @@
                   }
                 }
               }
+              .head_txt{
+                @include Noto_Serif(300);
+                font-size: 17px;
+                color: #565656;
+                text-align: center;
+                background-color: #f4f5f5;
+                padding: 15px 0;
+                position: relative;
+                z-index: 1;
+                top: 1px;
+                margin-top: 30px;
+              }
+              .subhead_txt{
+                @include Noto_Serif(300);
+                font-size: 16px;
+                color: #565656;
+                line-height: 32px;
+                margin: 20px 0;
+                &:nth-of-type(3){
+                  margin: 20px 0 40px;
+                }
+              }
               .row{
+                width: 100%;
+                margin-bottom: 0;
                 .col{
                   width: 100%;
                   padding: 20px 0;
@@ -225,6 +306,9 @@
                     @include Noto_Serif(300);
                     font-size: 16px;
                     color: #565656;
+                    text-indent: -10px;
+                    margin-left: 10px;
+                    line-height: 24px;
                     &:first-child{
                       width: 75%;
                       text-align: left;
@@ -234,6 +318,13 @@
                     &:last-child{
                       width: 25%;
                       text-align: right;
+                    }
+                    i{
+                      opacity: 0;
+                    }
+                    del{
+                      font-size: 13px;
+                      color: #565656;
                     }
                   }
                 }

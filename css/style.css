@@ -3346,32 +3346,28 @@ img[src$=".png"], img[src$=".jpg"] {
   width: 65%;
 }
 
-#Menu_hair main .sect_1 .wrapper .price_cont .row .col:last-child .highlight_cont.row {
+#Menu_hair main .sect_1 .wrapper .price_cont .row .col:last-child .highlight_cont {
   margin-bottom: 40px;
+  display: flex;
 }
 
-#Menu_hair main .sect_1 .wrapper .price_cont .row .col:last-child .highlight_cont.row .col {
-  padding: 0;
-  border-top: none;
-  border-bottom: none;
+#Menu_hair main .sect_1 .wrapper .price_cont .row .col:last-child .highlight_cont figure {
+  width: 29%;
 }
 
-#Menu_hair main .sect_1 .wrapper .price_cont .row .col:last-child .highlight_cont.row .col:first-child {
-  width: 30%;
-}
-
-#Menu_hair main .sect_1 .wrapper .price_cont .row .col:last-child .highlight_cont.row .col:last-child {
-  width: 70%;
-  border-bottom: none;
-  padding-left: 40px;
-}
-
-#Menu_hair main .sect_1 .wrapper .price_cont .row .col:last-child .highlight_cont.row .col:last-child p {
+#Menu_hair main .sect_1 .wrapper .price_cont .row .col:last-child .highlight_cont p {
+  width: 71%;
   font-family: 'Noto Serif JP', serif;
   font-weight: 300;
   font-size: 16px;
   color: #565656;
   line-height: 32px;
+  padding-left: 40px;
+}
+
+#Menu_hair main .sect_1 .wrapper .price_cont .row .col:last-child .highlight_cont p span {
+  font-size: 20px;
+  color: #161616;
 }
 
 #Menu_hair main .sect_1 .wrapper .price_cont .row .col:last-child .row .col {
@@ -3405,6 +3401,321 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 #Menu_hair main .sect_1 .wrapper .price_cont .row .col:last-child .desc {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 300;
+  font-size: 13px;
+  color: #565656;
+  text-align: right;
+  margin-top: 30px;
+}
+
+/*==================================
+  Total Beauty Menu
+==================================*/
+#Beauty_menu main .sect_1 .wrapper {
+  padding-bottom: 150px;
+}
+
+#Beauty_menu main .sect_1 .wrapper .menu_banner {
+  margin-bottom: 80px;
+}
+
+#Beauty_menu main .sect_1 .wrapper .menu_banner .row {
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f4f5f5;
+  padding: 30px 50px 20px;
+}
+
+#Beauty_menu main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(1) {
+  width: 33%;
+}
+
+#Beauty_menu main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(1) h3 {
+  font-family: 'Cormorant Infant', serif;
+  font-weight: 500;
+  font-size: 50px;
+  color: #161616;
+  line-height: 35.5px;
+  text-align: center;
+  border-bottom: 1px solid #d7dcdc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+#Beauty_menu main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(1) h3 span {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #161616;
+}
+
+#Beauty_menu main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(1) p:nth-of-type(1) {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #161616;
+  text-align: center;
+}
+
+#Beauty_menu main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(1) p:nth-of-type(2) {
+  font-family: "Noto Sans JP";
+  font-weight: 400;
+  font-size: 12px;
+  color: #565656;
+  text-align: center;
+}
+
+#Beauty_menu main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(1) p:nth-of-type(2) br {
+  display: none;
+}
+
+#Beauty_menu main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(1) h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Cormorant Infant', serif;
+  font-weight: 600;
+  font-size: 67px;
+  color: #837d6a;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1400px) {
+  #Beauty_menu main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(1) h4 {
+    font-size: 4.786vw;
+  }
+}
+
+#Beauty_menu main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(1) h4 span:nth-of-type(1) {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: #fff;
+  line-height: 17px;
+  background-color: #837d6a;
+  padding: 7px 8px;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 1400px) {
+  #Beauty_menu main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(1) h4 span:nth-of-type(1) {
+    font-size: 1vw;
+  }
+}
+
+#Beauty_menu main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(1) h4 span:nth-of-type(2) {
+  font-family: 'Cormorant Infant', serif;
+  font-weight: 600;
+  font-size: 44px;
+  color: #837d6a;
+  position: relative;
+  top: 6px;
+}
+
+@media only screen and (max-width: 1400px) {
+  #Beauty_menu main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(1) h4 span:nth-of-type(2) {
+    font-size: 3.143vw;
+  }
+}
+
+#Beauty_menu main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(2) {
+  display: none;
+}
+
+#Beauty_menu main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(3) {
+  width: 64%;
+}
+
+#Beauty_menu main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(3) .row {
+  padding: 0;
+}
+
+#Beauty_menu main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(3) .row .col {
+  width: 19.8%;
+  margin-bottom: 10px;
+}
+
+#Beauty_menu main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(3) .row .col:nth-of-type(2) {
+  display: block;
+}
+
+#Beauty_menu main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(3) .row .col p {
+  background-color: #65696a;
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1400px) {
+  #Beauty_menu main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(3) .row .col p {
+    font-size: .9vw;
+  }
+}
+
+#Beauty_menu main .sect_1 .wrapper .menu_banner .row .col:nth-of-type(3) .row .col p br {
+  display: none;
+}
+
+#Beauty_menu main .sect_1 .wrapper .price_cont .row:not(:last-child) {
+  margin-bottom: 100px;
+}
+
+#Beauty_menu main .sect_1 .wrapper .price_cont .row:last-child .col:last-child .row {
+  margin-bottom: 0;
+}
+
+#Beauty_menu main .sect_1 .wrapper .price_cont .row:last-child .col:last-child .row:nth-of-type(2) .col {
+  flex-wrap: wrap;
+}
+
+#Beauty_menu main .sect_1 .wrapper .price_cont .row:last-child .col:last-child .row:nth-of-type(2) .col:nth-of-type(8) span:first-child {
+  width: 70%;
+}
+
+#Beauty_menu main .sect_1 .wrapper .price_cont .row:last-child .col:last-child .row:nth-of-type(2) .col:nth-of-type(8) span:last-child {
+  width: 30%;
+}
+
+#Beauty_menu main .sect_1 .wrapper .price_cont .row:last-child .col:last-child .row:nth-of-type(5) .col {
+  flex-wrap: wrap;
+}
+
+#Beauty_menu main .sect_1 .wrapper .price_cont .row:last-child .col:last-child .row:nth-of-type(5) .col span:first-child {
+  width: 65%;
+}
+
+#Beauty_menu main .sect_1 .wrapper .price_cont .row:last-child .col:last-child .row:nth-of-type(5) .col span:last-child {
+  width: 35%;
+}
+
+#Beauty_menu main .sect_1 .wrapper .price_cont .row .col:first-child {
+  width: 35%;
+}
+
+#Beauty_menu main .sect_1 .wrapper .price_cont .row .col:first-child h3 {
+  font-family: 'Marcellus', serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #161616;
+  line-height: 35px;
+  margin-top: -10px;
+}
+
+#Beauty_menu main .sect_1 .wrapper .price_cont .row .col:first-child h3 span {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 300;
+  font-size: 15px;
+  color: #161616;
+}
+
+#Beauty_menu main .sect_1 .wrapper .price_cont .row .col:last-child {
+  width: 65%;
+}
+
+#Beauty_menu main .sect_1 .wrapper .price_cont .row .col:last-child .highlight_cont {
+  margin-bottom: 40px;
+  display: flex;
+}
+
+#Beauty_menu main .sect_1 .wrapper .price_cont .row .col:last-child .highlight_cont figure {
+  width: 29%;
+}
+
+#Beauty_menu main .sect_1 .wrapper .price_cont .row .col:last-child .highlight_cont p {
+  width: 71%;
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #565656;
+  line-height: 32px;
+  padding-left: 40px;
+}
+
+#Beauty_menu main .sect_1 .wrapper .price_cont .row .col:last-child .highlight_cont p span {
+  font-size: 20px;
+  color: #161616;
+}
+
+#Beauty_menu main .sect_1 .wrapper .price_cont .row .col:last-child .head_txt {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 300;
+  font-size: 17px;
+  color: #565656;
+  text-align: center;
+  background-color: #f4f5f5;
+  padding: 15px 0;
+  position: relative;
+  z-index: 1;
+  top: 1px;
+  margin-top: 40px;
+}
+
+#Beauty_menu main .sect_1 .wrapper .price_cont .row .col:last-child .subhead_txt {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #565656;
+  line-height: 32px;
+  margin: 30px 0;
+}
+
+#Beauty_menu main .sect_1 .wrapper .price_cont .row .col:last-child .subhead_txt:nth-of-type(3) {
+  margin: 30px 0 60px;
+}
+
+#Beauty_menu main .sect_1 .wrapper .price_cont .row .col:last-child .row {
+  margin-bottom: 0;
+}
+
+#Beauty_menu main .sect_1 .wrapper .price_cont .row .col:last-child .row .col {
+  width: 100%;
+  padding: 30px 5px 30px 15px;
+  border-top: 1px solid #dde1e1;
+  display: flex;
+  justify-content: space-between;
+}
+
+#Beauty_menu main .sect_1 .wrapper .price_cont .row .col:last-child .row .col:last-child {
+  border-bottom: 1px solid #dde1e1;
+}
+
+#Beauty_menu main .sect_1 .wrapper .price_cont .row .col:last-child .row .col span {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #565656;
+  line-height: 20px;
+}
+
+#Beauty_menu main .sect_1 .wrapper .price_cont .row .col:last-child .row .col span:first-child {
+  width: 75%;
+  text-align: left;
+}
+
+#Beauty_menu main .sect_1 .wrapper .price_cont .row .col:last-child .row .col span:last-child {
+  width: 25%;
+  text-align: right;
+}
+
+#Beauty_menu main .sect_1 .wrapper .price_cont .row .col:last-child .row .col span i {
+  opacity: 0;
+}
+
+#Beauty_menu main .sect_1 .wrapper .price_cont .row .col:last-child .row .col span br {
+  display: none;
+}
+
+#Beauty_menu main .sect_1 .wrapper .price_cont .row .col:last-child .row .col span del {
+  font-size: 13px;
+  color: #565656;
+}
+
+#Beauty_menu main .sect_1 .wrapper .price_cont .row .col:last-child .desc {
   font-family: 'Noto Serif JP', serif;
   font-weight: 300;
   font-size: 13px;

@@ -152,26 +152,21 @@
             &:last-child{
               width: 65%;
               .highlight_cont{
-                &.row{
-                  margin-bottom: 40px;
-                  .col{
-                    padding: 0;
-                    border-top: none;
-                    border-bottom: none;
-                    &:first-child{
-                      width: 30%;
-                    }
-                    &:last-child{
-                      width: 70%;
-                      border-bottom: none;
-                      padding-left: 40px;
-                      p{
-                        @include Noto_Serif(300);
-                        font-size: 16px;
-                        color: #565656;
-                        line-height: 32px;
-                      }
-                    }
+                margin-bottom: 40px;
+                display: flex;
+                figure{
+                  width: 29%;
+                }
+                p{
+                  width: 71%;
+                  @include Noto_Serif(300);
+                  font-size: 16px;
+                  color: #565656;
+                  line-height: 32px;
+                  padding-left:40px;
+                  span{
+                    font-size: 20px;
+                    color: #161616;
                   }
                 }
               }
