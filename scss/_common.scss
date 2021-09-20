@@ -354,7 +354,7 @@ header {
           margin-left: auto;
           margin-top: -140px;
           width: 250px;
-          p{
+          a{
             @include Marcellus(400);
             font-size: 20px;
             color: #161616;
@@ -365,7 +365,7 @@ header {
               color: #161616;
             }
           }
-          a{
+          .btn_contact{
             display: block;
             width: 100%;
             text-align: center;

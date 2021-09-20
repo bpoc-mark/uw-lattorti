@@ -28,22 +28,84 @@
 		</header>
 
 		<main id="Contact" class="sfm1">
-
-
-
+			<section class="jumbo_sect">
+				<div class="wrapper">
+					<div class="container">
+						<span>お問い合わせ</span>
+						<h3>CONTACT</h3>
+						<ul class="breadcrumb">
+						<li>
+							<a href="/">TOP</a>
+						</li>
+						<li>
+							<a href="/contact/">CONTACT</a>
+						</li>
+						</ul>
+					</div>
+				</div>
+			</section>
 			<section class="form-sec">
 				<div class="form_wrap container">
-					<p>必要項目を入力し、個人情報保護方針をご確認の上、入力内容の確認ボタンを押してください。</p>
-
-
+					<p class="desc">申し訳ございませんが、お問い合わせフォームからのご予約は承っておりません。<br>
+						ラットルティのご予約は、アプリにてネット予約を受付ております。お手数ですが、「RESERVE」からのご予約をお願い致します。<br>
+						下記フォームの、「 ＊ 」入力必須項目に情報を入力して下さい。内容を確認の上、担当者より折り返しご連絡いたします。</p>
 					<form method="post" name="sfm-form" id="sfm-form" action="./">
 						<table>
 							<tr>
-								<th>お名前<span class="need">〈必須〉</span></th>
-								<td><input type="text" name="name_s" value="" title="" placeholder="例）山田 太郎"></td>
+								<!-- <th>お名前 ＊<span class="need">〈必須〉</span></th> -->
+								<!-- <td>
+									<label for="name">
+										<input type="text" id="name" placeholder="お名前 ＊">
+										<span class="lbl">お名前 ＊</span>
+									</label>
+								</td> -->
+
+								<td>
+									<label for="name">
+										<input type="text" name="name_s" id="name" value="" title="" placeholder="お名前 ＊">
+										<span class="lbl">お名前 <span class="req">＊</span></span>
+									</label>
+								</td>
+
+								<!-- <th>フリガナ ＊<span class="need">〈必須〉</span></th> -->
+								<td>
+									<label for="furigana">
+										<input type="text" name="furigana_s" id="furigana" value="" title="" placeholder="フリガナ ＊">
+										<span class="lbl">フリガナ <span class="req">＊</span></span>
+									</label>
+								</td>
+
+								<!-- <th>ご住所<span class="need">〈必須〉</span></th> -->
+								<td>
+									<label for="zip">
+										<span class="zip-wrap">
+											<input class="zip" type="text" name="zip_s" id="zip" size="10" maxlength="8" placeholder="郵便番号">
+										</span>
+										<input class="ad_btn" type="button" value="住所自動入力"><br>
+										<input class="text02" type="text" name="address_s" size="60" placeholder="ご住所">
+										<span class="lbl">郵便番号</span>
+									</label>
+									
+								</td>
+
+								<!-- <th>電話番号 ＊<span class="need">〈必須〉</span></th> -->
+								<td>
+									<label for="tel">
+										<input type="text" name="tel_s" id="tel" value="" title="" placeholder="電話番号 ＊">
+										<span class="lbl">電話番号 <span class="req">＊</span></span>
+									</label>
+								</td>
+
+								<!-- <th>メールアドレス<span class="need">〈必須〉</span></th> -->
+								<td>
+									<label for="email">
+										<input type="text" name="email_s" id="email" value="" title="" placeholder="メールアドレス ＊">
+										<span class="lbl">メールアドレス <span class="req">＊</span></span>
+									</label>
+								</td>
 							</tr>
 
-							<tr>
+							<!-- <tr>
 								<th>メールアドレス<span class="need">〈必須〉</span></th>
 								<td><input type="text" name="email_s" value="" title="" placeholder="例）mail@example.com"></td>
 							</tr>
@@ -57,10 +119,10 @@
 									<input class="ad_btn" type="button" value="住所自動入力"><br>
 									<input class="text02" type="text" name="address_s" size="60" placeholder="例）静岡県浜松市南区下江町413">
 								</td>
-							</tr>
+							</tr> -->
 
 
-							<tr>
+							<!-- <tr>
 								<th>チェックボックス <span class="need">〈必須〉</span></th>
 								<td>
 									<div class="checkbox">
@@ -119,16 +181,39 @@
 										</select>
 									</div>
 								</td>
-							</tr>
+							</tr> -->
 
 							<tr>
-								<th>お問合せ内容<span class="need">〈必須〉</span></th>
-								<td><textarea name="message_s" title=""></textarea></td>
+								<!-- <th>お問合せ内容<span class="need">〈必須〉</span></th> -->
+								<td>
+									<label for="message">
+										<textarea name="message_s" id="message" title="" placeholder="お問い合わせ内容 ＊"></textarea>
+										<span class="lbl">お問い合わせ内容 <span class="req">＊</span></span>
+									</label>
+									
+								</td>
+
+								<td>
+									<div class="agree_area">
+										<input type="checkbox" name="agree" id="checkAgree">
+										<label for="checkAgree" class="checkAgree"><a href="">プライバシーポリシー</a>に同意する<span>＊</span></label>
+									</div>
+
+									<div class="submit_area">
+										<span>
+											<input id="checkSubmit" type="submit" value="入力内容を確認" class="pushbtn" />
+										</span>
+									</div><!-- submit_area -->
+
+
+									<input type="hidden" name="mailToNum" value="0" />
+									<input type="hidden" name="mode" value="CONFIRM" />
+								</td>
 							</tr>
 
 						</table>
 
-						<div class="overscroll">
+						<!-- <div class="overscroll">
 							<ul>
 								<li>
 									<strong>個人情報保護方針</strong>
@@ -193,22 +278,9 @@
 									</p>
 								</li>
 							</ul>
-						</div>
+						</div> -->
 
-						<div class="agree_area">
-							<input type="checkbox" name="agree" id="checkAgree">
-							<label for="checkAgree" class="checkAgree">同意します</label>
-						</div>
-
-						<div class="submit_area">
-							<span>
-								<input id="checkSubmit" type="submit" value="入力内容を確認" class="pushbtn" />
-							</span>
-						</div><!-- submit_area -->
-
-
-						<input type="hidden" name="mailToNum" value="0" />
-						<input type="hidden" name="mode" value="CONFIRM" />
+						
 					</form>
 				</div>
 			</section>
@@ -221,6 +293,7 @@
 	<?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/footer_tag.php"); ?>
 	<script src="https://ajaxzip3.github.io/ajaxzip3.js"></script>
 	<script src="/js/jquery.validate.min.js"></script>
+
 	<script>
 		// 同意ボタンのチェックがされているか
 		const checkbox = document.querySelector('#checkAgree');
@@ -229,11 +302,13 @@
 		let changeDisabled = function() {
 			if (checkbox.checked) {
 				submitButton.disabled = "";
-				submitButton.style.opacity = 1;
+				// submitButton.style.opacity = 1;
+				submitButton.style.cssText = 'opacity:1; background-color: #fff; border: 1px solid #dddddd;';
 				submitButton.parentNode.style.pointerEvents = "auto";
 			} else {
 				submitButton.disabled = "disabled";
-				submitButton.style.opacity = 0.4;
+				// submitButton.style.opacity = 0.4;
+				submitButton.style.cssText = 'opacity:0.4; border: none;';
 				submitButton.parentNode.style.pointerEvents = "none";
 			}
 		}
@@ -254,6 +329,9 @@
 				email: function(value, element) {
 					return this.optional(element) || /^[A-Za-z0-9]{1}[A-Za-z0-9_.-]*@{1}[A-Za-z0-9_.-]{1,}\.[A-Za-z0-9]{1,}$/.test(value);
 				},
+				tel: function(value, element) {
+					return this.optional(element) || /^[0-9]+[0-9.-]+$/.test(value);
+				},
 			};
 
 			//メソッドの追加
@@ -266,25 +344,32 @@
 				name_s: {
 					required: true
 				},
+				furigana_s: {
+					required: true
+				},
+				tel_s: {
+					tel: true,
+					required: true
+				},
 				email_s: {
 					email: true,
 					required: true,
 				},
-				'check_s[]': {
-					required: true,
-				},
-				'radio_s[]': {
-					required: true,
-				},
-				zip_s: {
-					required: true
-				},
-				select_s: {
-					required: true
-				},
-				address_s: {
-					required: true,
-				},
+				// 'check_s[]': {
+				// 	required: true,
+				// },
+				// 'radio_s[]': {
+				// 	required: true,
+				// },
+				// zip_s: {
+				// 	required: true
+				// },
+				// select_s: {
+				// 	required: true
+				// },
+				// address_s: {
+				// 	required: true,
+				// },
 				message_s: {
 					required: true,
 				}
@@ -300,6 +385,9 @@
 				},
 				check_s: {
 					required: "チェックボックスを選択してください"
+				},
+				tel_s: {
+					tel: "正しい電話番号を入力してください"
 				}
 			};
 
@@ -344,6 +432,13 @@
 			$('.ad_btn').click(function() {
 				AjaxZip3.zip2addr('zip_s', '', 'address_s', 'address_s');
 			});
+
+			$('input[name="zip_s"]').keyup(function() {
+				if( $(this).val().length === 7 ) { 
+					$('.ad_btn').click();
+				}
+			});
+
 		});
 	</script>
 </body>

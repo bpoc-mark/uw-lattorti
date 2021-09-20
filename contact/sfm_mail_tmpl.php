@@ -18,18 +18,18 @@ $mailMessage = <<< EOD
 ■お名前
 {$sfm_mail->name}
 
-■メールアドレス
-{$sfm_mail->email}
+■フリガナ
+{$sfm_mail->furigana}
 
 ■ご住所
 〒{$sfm_mail->zip}
 {$sfm_mail->address}
 
-■チェックボックス　
-{$sfm_mail->check}
+■電話番号
+{$sfm_mail->tel}
 
-■セレクトボックス
-{$sfm_mail->select}
+■メールアドレス
+{$sfm_mail->email}
 
 ■お問い合わせ内容
 {$sfm_mail->message}

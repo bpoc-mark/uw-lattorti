@@ -5,14 +5,14 @@
 			<div class="col">
 				<p class="c-anim-up">ご予約は、お電話または<br>予約サイトから承っております。</p>
 				<p class="c-anim-up"><span>Tel.</span>053-424-6757</p>
-				<a href="" class="c-anim-up">RESERVE</a>
+				<a href="/contact/" class="c-anim-up">RESERVE</a>
 			</div>
 			<div class="col">
 				<h5 class="c-anim-up">RECRUIT</h5>
 				<p class="c-anim-up">スタッフ募集中<br>
 				<span class="c-anim-up">再現性の高い技術を修得しながら一緒に<br>楽しく働いてみませんか？</span>
 				</p>
-				<a href="" class="c-anim-up">view more</a>
+				<a href="/recruit/" class="c-anim-up">view more</a>
 			</div>
 		</div>
 	</div>
@@ -23,18 +23,18 @@
 
 	<nav class="container footer_nav c-anim-up">
 		<ul>
-			<li><a href="/">SALON</a></li>
-			<li><a href="/">GALLERY</a></li>
-			<li><a href="/">HAIR</a></li>
-			<li><a href="/">NAIL</a></li>
-			<li><a href="/">EYELASH</a></li>
-			<li><a href="/">ESTHETIC</a></li>
-			<li><a href="/">STAFF</a></li>
-			<li><a href="/">ACCESS</a></li>
-			<li><a href="/">TOPICS</a></li>
-			<li><a href="/">RECRUIT</a></li>
-			<li><a href="/">CONTACT</a></li>
-			<li><a href="/">RESERVE</a></li>
+			<li><a href="/salon/">SALON</a></li>
+			<li><a href="/#id-gallery">GALLERY</a></li>
+			<li><a href="/hair/">HAIR</a></li>
+			<li><a href="/nails/">NAIL</a></li>
+			<li><a href="/beauty_menu#id-eyelash">EYELASH</a></li>
+			<li><a href="/beauty_menu#id-esthetic">ESTHETIC</a></li>
+			<li><a href="/staff/">STAFF</a></li>
+			<li><a href="/access/">ACCESS</a></li>
+			<li><a href="/topics/">TOPICS</a></li>
+			<li><a href="/recruit/">RECRUIT</a></li>
+			<li><a href="/contact/">CONTACT</a></li>
+			<li><a href="/contact/">RESERVE</a></li>
 		</ul>
 		<a href="#">
 			<img src="/images/common/arrow_up.svg" alt="">

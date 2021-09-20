@@ -3,26 +3,53 @@
 ==================================*/
 
 main#Contact {
-  .container {
-    margin: auto;
-
-    p > a {
-      background: linear-gradient(#000, #000) 0 100%/0 1px no-repeat;
-      background-size: 100% 1px;
-      padding-bottom: 2px;
-      display: inline;
-
-      &:hover {
-        color: #704f00;
-        background: linear-gradient(#704f00, #704f00) 0 100%/0 1px no-repeat;
+  .form-sec{
+    .container {
+      margin: auto;
+      padding-bottom: 140px;
+      p > a {
+        background: linear-gradient(#000, #000) 0 100%/0 1px no-repeat;
         background-size: 100% 1px;
+        padding-bottom: 2px;
+        display: inline;
+  
+        &:hover {
+          color: #704f00;
+          background: linear-gradient(#704f00, #704f00) 0 100%/0 1px no-repeat;
+          background-size: 100% 1px;
+        }
+      }
+  
+      .desc{
+        @include Noto_Serif(300);
+        font-size: 16px;
+        color: #565656;
+        line-height: 38.4px;
+        margin-bottom: 60px;
       }
     }
   }
+  
 
   .agree_area {
     margin: 30px 0 0;
-    text-align: center;
+    text-align: left;
+    .checkAgree{
+      @include Noto_Serif(300);
+      font-size: 16px;
+      color: #565656;
+      a{
+        color: #565656;
+        border-bottom: 1px solid #aaaaaa;
+        padding-bottom: 5px;
+      }
+      span{
+        font-size: 10px;
+        color: #cb7777;
+        position: relative;
+        top: -5px;
+      }
+    }
   }
 
   .need {
@@ -33,12 +60,30 @@ main#Contact {
     display: block;
 
     tbody {
-      display: block;
+      display: flex;
+      justify-content: space-between;
     }
 
     tr {
       display: block;
-      margin-bottom: 30px;
+      // margin-bottom: 30px;
+
+      &:nth-of-type(1){
+        width: 50%;
+      }
+      &:nth-of-type(2){
+        width: 45%;
+
+        td{
+          &:nth-of-type(1){
+            label{
+              .lbl{
+                top: -320px;
+              }
+            }
+          }
+        }
+      }
 
       th {
         font-size: 16px;
@@ -51,10 +96,63 @@ main#Contact {
       }
 
       td {
+        position: relative;
         display: block;
-
+        margin-bottom: 40px;
         .text02 {
           margin-top: 8px;
+        }
+
+        input[type="text"],
+        input[type="email"]
+        input[type="tel"],
+        input[type="search"],
+        input[type="url"],
+        textarea {
+          @include Noto_Serif(300);
+          font-size: 16px;
+          color: #565656;
+        }
+
+        .ad_btn{
+          opacity: 0;
+        }
+
+        input::placeholder, textarea::placeholder{
+          opacity:0;
+        }
+
+        .text02::placeholder{
+          opacity: 1 !important;
+          color: #565656;
+        }
+        
+        label{
+          margin-bottom:15px;
+          position:relative;
+        }
+
+        .lbl{
+          position:absolute;
+          top:0;
+          left:30px;
+          transform:translateY(0);
+          font-size:16px;
+          @include Noto_Serif(300);
+          color: #565656;
+          transition-duration:300ms;
+          
+          .req{
+            color: #cb7777;
+            font-size: 10px;
+            position: relative;
+            top: -5px;
+          }
+        }
+
+        label:focus-within > .lbl,
+        input:not(:placeholder-shown) + .lbl, textarea:not(:placeholder-shown) + .lbl{
+            transform:translateY(-33px);
         }
       }
     }
@@ -76,6 +174,116 @@ main#Contact {
       line-height: 1.5;
       letter-spacing: 0.03em;
       font-weight: 500;
+    }
+  }
+}
+
+main.sfm2{
+  table {
+    display: block;
+    tbody {
+      display: block !important;
+    }
+
+    tr {
+      display: block;
+      // margin-bottom: 30px;
+      width: 100% !important;;
+      th {
+        font-size: 16px;
+        line-height: 1;
+        letter-spacing: 0.03em;
+        font-weight: 500;
+        display: block;
+        text-align: left;
+        margin-bottom: 13px;
+
+        @include Noto_Serif(300);
+        font-size: 16px;
+        color: #565656;
+
+        span{
+          font-size: 10px;
+          position: relative;
+          top: -5px;
+        }
+      }
+
+      td {
+        display: block;
+        margin-bottom: 40px;
+
+        @include Noto_Serif(300);
+        font-size: 16px;
+        color: #565656;
+        .text02 {
+          margin-top: 8px;
+        }
+      }
+    }
+  }
+
+  .submit_area{
+    p{
+      @include Noto_Serif(300);
+      font-size: 16px;
+      color: #565656;
+    }
+    ul.koumoku{
+      .btn_back{
+        border: 3px solid #dddddd !important;
+        margin-top: 0 !important;
+        input{
+          @include Noto_Serif(300);
+          font-size: 16px;
+          color: #565656 !important;
+          border: none !important;
+          background: #fff !important;
+        }
+      }
+      .send{
+        border: 3px solid #2f2f2f !important;
+        margin-top: 0 !important;
+        input{
+          @include Noto_Serif(300);
+          font-size: 16px;
+          color: #fff !important;
+          border: none !important;
+          background: #2f2f2f !important;
+          transition: .5s ease;
+          &:hover{
+            background: #fff !important;
+            color: #565656 !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+main.sfm3{
+  .form-sec{
+    .send_comp{
+      padding-top: 200px;
+      p{
+        @include Noto_Serif(300);
+        font-size: 16px;
+        color: #161616;
+        text-align: center;
+      }
+      .contact_back{
+        a{
+          color: #161616 !important;
+          @include Noto_Serif(300);
+          font-size: 16px;
+
+          &:hover{
+            background-color: #2f2f2f !important;
+            color: #fff !important;
+            border: 3px solid #2f2f2f !important;
+          }
+        }
+      }
     }
   }
 }

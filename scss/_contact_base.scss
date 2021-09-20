@@ -5,8 +5,8 @@
 /* input, textarea
 --------------------------------*/
 $text-color: #000;
-$input_bg_color: #dddddd;
-$input_border_color: #dddddd;
+$input_bg_color: #f4f5f5;
+$input_border_color: #f4f5f5;
 
 /* radio_button
 --------------------------------*/
@@ -26,6 +26,8 @@ main#Contact {
     color: #cc0303;
     display: block;
     margin: 7px 0 0;
+    @include Noto_Serif(300);
+    font-size: 14px;
   }
 
   input:-webkit-autofill {
@@ -52,7 +54,7 @@ main#Contact {
     font-size: 16px;
     line-height: 1.625;
     letter-spacing: 0.03em;
-    padding: 12px 21px;
+    padding: 20px 30px;
     border: 1px solid $input_border_color;
     background: $input_bg_color;
     box-sizing: border-box;
@@ -60,7 +62,7 @@ main#Contact {
     width: 100%;
 
     &.zip {
-      max-width: 247px;
+      max-width: 100%;
       width: 100%;
     }
   }
@@ -69,21 +71,24 @@ main#Contact {
     background: $input_bg_color;
     display: inline-block;
     position: relative;
-    max-width: 247px;
+    max-width: 50%;
     width: 100%;
     margin-right: 3px;
 
-    &::before {
-      content: "〒";
-      font-size: 18px;
-      position: absolute;
-      top: 0.8em;
-      left: 24px;
-      margin: auto;
+    @include sp{
+      max-width: 75%;
     }
+    // &::before {
+    //   content: "〒";
+    //   font-size: 18px;
+    //   position: absolute;
+    //   top: 0.8em;
+    //   left: 24px;
+    //   margin: auto;
+    // }
 
     input {
-      padding: 12px 21px 12px 55px;
+      padding: 20px 30px;
       width: 100%;
     }
   }
@@ -110,10 +115,14 @@ main#Contact {
 
   input[type="checkbox"] {
     & + label {
-      padding-left: 29px;
+      padding-left: 50px;
       position: relative;
       margin-right: 29px;
       cursor: pointer;
+
+      @include sp{
+        padding-left: 40px;
+      }
 
       &::before {
         content: "";
@@ -121,25 +130,25 @@ main#Contact {
         position: absolute;
         top: 0;
         left: 0;
-        width: 22px;
-        height: 22px;
-        border: 1px solid $input_border_color;
-        background: $input_bg_color;
+        width: 33px;
+        height: 33px;
+        border: 1px solid #dddddd;
+        background: #fff;
         box-sizing: border-box;
       }
 
       &::after {
         content: "";
         opacity: 0;
-        border-right: 3px solid $radio_button_in_color;
-        border-bottom: 3px solid $radio_button_in_color;
+        border-right: 3px solid #727171;
+        border-bottom: 3px solid #727171;
         display: block;
         height: 9px;
-        left: 7px;
+        left: 14px;
         margin-top: -8px;
         opacity: 0;
         position: absolute;
-        top: 50%;
+        top: 75%;
         transform: rotate(45deg);
         width: 5px;
       }
@@ -251,8 +260,8 @@ main#Contact {
     background: $input_bg_color;
     box-sizing: border-box;
     width: 100%;
-    padding: 12px 21px;
-    min-height: 174px;
+    padding: 20px 30px;
+    min-height: 360px;
   }
 
   .overscroll {
@@ -303,15 +312,18 @@ main#Contact {
   }
 
   .submit_area {
-    margin-top: 85px;
-    text-align: center;
-
+    margin-top: 80px;
+    text-align: left;
+    position: relative;
+    @include sp{
+      margin-top: 50px;
+    }
     span {
       font-size: 18px;
       line-height: 1.4;
       letter-spacing: 0.13em;
       color: $text-color;
-      width: 262px;
+      width: 350px;
       background: $input_bg_color;
       box-sizing: border-box;
       font-feature-settings: "palt";
@@ -319,19 +331,40 @@ main#Contact {
       display: inline-block;
       text-align: center;
       box-sizing: border-box;
-      border: 3px solid $input_border_color;
+      // border: 3px solid $input_border_color;
       transition: all 0.3s ease;
 
+      @include sp{
+        width: 100%;
+      }
+
+      &::after{
+        content: "";
+        display: block;
+        width: 30px;
+        height: 1px;
+        background-color: #dddddd;
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translate(0, -50%)
+      }
+
       input[type="submit"] {
-        font-size: 18px;
+        @include Noto_Serif(300);
+        font-size: 16px;
         line-height: 1.4;
         letter-spacing: 0.13em;
         color: $text-color;
 
         cursor: pointer;
         width: 100%;
-        height: 58px;
+        height: 70px;
         box-sizing: border-box;
+
+        @include sp{
+          height: 60px;
+        }
       }
 
       &:hover {

@@ -14,49 +14,49 @@ $str = explode('/', $url); ?>
 	<nav class="right">
 		<ul>
 			<li>
-				<a href="/" <?php if ($str[1] == "") {echo ' class="here"';} ?>>
+				<a href="/salon/" <?php if ($str[1] == "") {echo ' class="here"';} ?>>
 					<span>サロン情報</span><br>
 					SALON
 				</a>
 			</li>
 			<li>
-				<a href="/about/" <?php if ($str[1] == "about") {echo 'class="here"';} ?>>
+				<a href="" <?php if ($str[1] == "about") {echo 'class="here"';} ?>>
 					<span>ギャラリー</span><br>
 					GALLERY
 				</a>
 				<ul class="sub_menu">
 					<li>
-						<a href="/" <?php if ($str[1] == "") {echo ' class="here"';} ?>>
+						<a href="/hair/" <?php if ($str[1] == "") {echo ' class="here"';} ?>>
 							HAIR STYLE
 						</a>
 					</li>
 					<li>
-						<a href="/" <?php if ($str[1] == "") {echo ' class="here"';} ?>>
+						<a href="/nails/" <?php if ($str[1] == "") {echo ' class="here"';} ?>>
 							NAIL DESIGN
 						</a>
 					</li>
 				</ul>
 			</li>
 			<li>
-				<a href="/about/" <?php if ($str[1] == "about") {echo 'class="here"';} ?>>
+				<a href="/hair/" <?php if ($str[1] == "about") {echo 'class="here"';} ?>>
 					<span>ヘア</span><br>
 					HAIR
 				</a>
 			</li>
 			<li>
-				<a href="/about/" <?php if ($str[1] == "about") {echo 'class="here"';} ?>>
+				<a href="/nails/" <?php if ($str[1] == "about") {echo 'class="here"';} ?>>
 					<span>ネイル</span><br>
 					NAIL
 				</a>
 			</li>
 			<li>
-				<a href="/about/" <?php if ($str[1] == "about") {echo 'class="here"';} ?>>
+				<a href="/beauty_menu#id-eyelash" <?php if ($str[1] == "about") {echo 'class="here"';} ?>>
 					<span>まつ毛エクステ</span><br>
 					EYELASH
 				</a>
 			</li>
 			<li>
-				<a href="/about/" <?php if ($str[1] == "about") {echo 'class="here"';} ?>>
+				<a href="/beauty_menu#id-esthetic" <?php if ($str[1] == "about") {echo 'class="here"';} ?>>
 					<span>エステ</span><br>
 					ESTHETIC
 				</a>
@@ -71,7 +71,7 @@ $str = explode('/', $url); ?>
 			</li>
 		</ul>
 	</nav>
-	<a href="" class="btn_reserve">RESERVE</a>
+	<a href="/contact/" class="btn_reserve">RESERVE</a>
 </div>
 <div class="big_menu">
 	<div class="overlay"></div>
@@ -79,13 +79,13 @@ $str = explode('/', $url); ?>
 		<div class="row">
 			<ul class="col">
 				<li>
-					<a href="">
+					<a href="/">
 						<span>トップ</span>
 						TOP
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="/salon/">
 						<span>サロン情報</span>
 						SALON
 					</a>
@@ -97,13 +97,13 @@ $str = explode('/', $url); ?>
 					</a>
 					<ul class="submenu">
 						<li>
-							<a href="">
+							<a href="/hair/">
 								<span>ヘアスタイル</span>
 								HAIR STYLE
 							</a>
 						</li>
 						<li>
-							<a href="">
+							<a href="/nails/">
 								<span>ネイルデザイン</span>
 								NAIL DESIGN
 							</a>
@@ -111,7 +111,7 @@ $str = explode('/', $url); ?>
 					</ul>
 				</li>
 				<li>
-					<a href="">
+					<a href="/hair/">
 						<span>ヘアメニュー</span>
 						HAIR MENU
 					</a>
@@ -123,19 +123,19 @@ $str = explode('/', $url); ?>
 					</a>
 					<ul class="submenu">
 						<li>
-							<a href="">
+							<a href="/beauty_menu#id-nail">
 								<span>ネイル</span>
 								NAIL
 							</a>
 						</li>
 						<li>
-							<a href="">
+							<a href="/beauty_menu#id-eyelash">
 								<span>まつ毛エクステ</span>
 								EYELASH
 							</a>
 						</li>
 						<li>
-							<a href="">
+							<a href="/beauty_menu#id-esthetic">
 								<span>エステ</span>
 								ESTHETIC
 							</a>
@@ -145,40 +145,39 @@ $str = explode('/', $url); ?>
 			</ul>
 			<ul class="col">
 				<li>
-					<a href="">
+					<a href="/staff/">
 						<span>スタッフ紹介</span>
 						STAFF
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="/access/">
 						<span>スタッフ紹介</span>
 						ACCESS
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="/topics/">
 						<span>サロン情報</span>
 						TOPICS
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="/recruit/">
 						<span>採用情報</span>
 						RECRUIT
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="/contact/">
 						<span>お問い合わせ</span>
 						CONTACT
 					</a>
 				</li>
-				
 			</ul>
 			<div class="btn_cont">
-				<p><span>Tel.</span>053-424-6757</p>
-				<a href="">RESERVE</a>
+				<a href="tel:053-424-6757"><span>Tel.</span> 053-424-6757</a>
+				<a href="/contact/" class="btn_contact">RESERVE</a>
 			</div>
 		</div>
 		<div class="menu menu2">

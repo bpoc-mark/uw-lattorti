@@ -119,7 +119,7 @@
             </div>
           </div>
           <div class="price_cont container">
-            <div class="row">
+            <div class="row" id="id-nail">
               <div class="col">
                 <h3 class="c-anim-up">
                   <span>ネイル</span><br>
@@ -163,7 +163,7 @@
                 </div>
               </div>
             </div>
-            <div class="row">
+            <div class="row" id="id-eyelash">
               <div class="col">
                 <h3 class="c-anim-up">
                   <span>まつ毛エクステ</span><br>
@@ -297,7 +297,7 @@
                 </div>
               </div>
             </div>
-            <div class="row">
+            <div class="row" id="id-esthetic">
               <div class="col">
                 <h3 class="c-anim-up">
                   <span>エステ</span><br>

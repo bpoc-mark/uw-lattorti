@@ -28,32 +28,47 @@
     </header>
 
     <main id="Contact" class="sfm2">
-
+      <section class="jumbo_sect">
+				<div class="wrapper">
+					<div class="container">
+						<span>お問い合わせ</span>
+						<h3>CONTACT</h3>
+						<ul class="breadcrumb">
+						<li>
+							<a href="/">TOP</a>
+						</li>
+						<li>
+							<a href="/contact/">CONTACT</a>
+						</li>
+						</ul>
+					</div>
+				</div>
+			</section>
       <section class="form-sec">
         <div class="form_wrap container">
-          <p>
-            入力内容を確認の上、間違いがなければ送信ボタンを押してメッセージをご送信ください。
-          </p>
+          <p class="desc">申し訳ございませんが、お問い合わせフォームからのご予約は承っておりません。<br>
+						ラットルティのご予約は、アプリにてネット予約を受付ております。お手数ですが、「RESERVE」からのご予約をお願い致します。<br>
+						下記フォームの、「 ＊ 」入力必須項目に情報を入力して下さい。内容を確認の上、担当者より折り返しご連絡いたします。</p>
           <form method="post" name="sfm-form" id="sfm-form" action="./">
 
             <table>
 
               <tr>
-                <th>■お名前<span class="need">必須</span></th>
+                <th>■お名前 <span class="need">＊</span></th>
                 <td>
                   <p><?php echo $sfm_html->name; ?></p>
                 </td>
               </tr>
 
               <tr>
-                <th>■メールアドレス<span class="need">必須</span></th>
+                <th>■フリガナ <span class="need">＊</span></th>
                 <td>
-                  <p><?php echo $sfm_html->email; ?></p>
+                  <p><?php echo $sfm_html->furigana; ?></p>
                 </td>
               </tr>
 
               <tr>
-                <th>■ご住所<span class="need">必須</span></th>
+                <th>■ご住所<span class="need"></span></th>
                 <td>
                   <p>〒<?php echo $sfm_html->zip; ?></p>
                   <p><?php echo $sfm_html->address; ?></p>
@@ -61,21 +76,36 @@
               </tr>
 
               <tr>
-                <th>■チェックボックス <span class="need">必須</span></th>
+                <th>■電話番号<span class="need">＊</span></th>
                 <td>
-                  <p><?php echo $sfm_html->check; ?></p>
+                  <p><?php echo $sfm_html->tel; ?></p>
                 </td>
               </tr>
 
               <tr>
+                <th>■メールアドレス<span class="need">＊</span></th>
+                <td>
+                  <p><?php echo $sfm_html->email; ?></p>
+                </td>
+              </tr>
+
+              <!-- <tr>
+                <th>■チェックボックス <span class="need">必須</span></th>
+                <td>
+                  asd
+                  <p><?php echo $sfm_html->check; ?></p>
+                </td>
+              </tr> -->
+
+              <!-- <tr>
                 <th>■セレクトボックス<span class="need">〈必須〉</span></th>
                 <td>
                   <p><?php echo $sfm_html->select; ?></p>
                 </td>
-              </tr>
+              </tr> -->
 
               <tr>
-                <th>■お問い合わせ内容</th>
+                <th>■お問い合わせ内容<span class="need">＊</span></th>
                 <td>
                   <p><?php echo $sfm_html->message; ?></p>
                 </td>
