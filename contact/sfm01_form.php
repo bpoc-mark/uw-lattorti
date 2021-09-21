@@ -196,7 +196,7 @@
 								<td>
 									<div class="agree_area">
 										<input type="checkbox" name="agree" id="checkAgree">
-										<label for="checkAgree" class="checkAgree"><a href="">プライバシーポリシー</a>に同意する<span>＊</span></label>
+										<label for="checkAgree" class="checkAgree"><a href="/privacy/" target="_blank">プライバシーポリシー</a>に同意する<span>＊</span></label>
 									</div>
 
 									<div class="submit_area">

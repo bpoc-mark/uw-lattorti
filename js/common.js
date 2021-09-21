@@ -34,22 +34,25 @@ $(function () {
   $('.menu').click(function(){
     if ($('.menu').hasClass("active")) {
       $('.menu').removeClass("active");
-      $('.line-t-h').removeClass("show");
-      $('.line-b-h').removeClass("show");
+      $('.line-t').removeClass("show");
+      $('.line-b').removeClass("show");
       $('.big_menu').removeClass("active");
+      $('header').removeClass("active");
     } else {
       $('.menu').addClass("active");
-      $('.line-t-h').addClass("show");
-      $('.line-b-h').addClass("show");
+      $('.line-t').addClass("show");
+      $('.line-b').addClass("show");
       $('.big_menu').addClass("active");
+      $('header').addClass("active");
     }
   })
   
   $('.overlay').click(function(){
     $('.menu').removeClass("active");
-    $('.line-t-h').removeClass("show");
-    $('.line-b-h').removeClass("show");
+    $('.line-t').removeClass("show");
+    $('.line-b').removeClass("show");
     $('.big_menu').removeClass("active");
+    $('header').removeClass("active");
   })
 
   $('.post_cat_cont span').click(function(){

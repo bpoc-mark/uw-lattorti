@@ -14,7 +14,7 @@
   <meta property="og:description" content="<?php echo DESCRIPTION ?>" />
   <meta property="og:url" content="<?php echo CANONICAL ?>" />
 
-  <title><?php echo SITE_NAME ?></title>
+  <title>HAIR | <?php echo SITE_NAME ?></title>
 
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_include.php"); ?>
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/ga.php"); ?>
@@ -36,10 +36,10 @@
             <h3>HAIR STYLE</h3>
             <ul class="breadcrumb">
               <li>
-                  <a href="">TOP</a>
+                  <a href="/">TOP</a>
               </li>
               <li>
-                  <a href="">HAIR STYLE</a>
+                  <a href="/hair/">HAIR STYLE</a>
               </li>
               <li>
                   <a href="">ワンレン大人カジュアル ボブパーマ</a>
@@ -85,6 +85,8 @@
                   <img src="/images/top/section_5/3.png" alt="">
                   <img src="/images/top/section_5/4.png" alt="">
                   <img src="/images/top/section_5/5.png" alt="">
+                  <img src="/images/top/section_5/4.png" alt="">
+                  <img src="/images/top/section_5/5.png" alt="">
                 </div>
               </div>
               <div class="col">
@@ -109,6 +111,35 @@
     </footer>
   </div><!-- //AllBox -->
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/tag/footer_tag.php"); ?>
+
+  <script>
+    const slider = document.querySelector('.post_img_list');
+    let mouseDown = false;
+    let startX, scrollLeft;
+
+    let startDragging = function (e) {
+      mouseDown = true;
+      startX = e.pageX - slider.offsetLeft;
+      scrollLeft = slider.scrollLeft;
+    };
+    let stopDragging = function (event) {
+      mouseDown = false;
+    };
+
+    slider.addEventListener('mousemove', (e) => {
+      e.preventDefault();
+      if(!mouseDown) { return; }
+      const x = e.pageX - slider.offsetLeft;
+      const scroll = x - startX;
+      slider.scrollLeft = scrollLeft - scroll;
+    });
+
+    // Add the event listeners
+    slider.addEventListener('mousedown', startDragging, false);
+    slider.addEventListener('mouseup', stopDragging, false);
+    slider.addEventListener('mouseleave', stopDragging, false);
+  </script>
+  
 </body>
 
 </html>

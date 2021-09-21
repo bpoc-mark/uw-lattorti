@@ -1,0 +1,52 @@
+/*==================================
+  Access
+==================================*/
+#Privacy main {
+  .sect_1{
+    .wrapper{
+      padding-bottom: 70px;
+      .container{
+        .desc{
+          @include Noto_Serif(300);
+          font-size: 15px;
+          color: #565656;
+          line-height: 32px;
+          margin-bottom: 50px;
+        }
+        ul{
+          li{
+            margin-bottom: 30px;
+            &:nth-child(4){
+              p{
+                &:not(:last-child){
+                  margin-bottom: 0
+                }
+                &:last-child{
+                  text-indent: -20px;
+                  margin-left: 20px;
+                }
+              }
+            }
+
+            h3{
+              @include Noto_Serif(700);
+              font-size: 20px;
+              color: #161616;
+              margin-bottom: 10px;
+              line-height: 32px;
+              text-indent: -35px;
+              margin-left: 35px;
+            }
+            p{
+              @include Noto_Serif(300);
+              font-size: 16px;
+              color: #565656;
+              line-height: 32px;
+              margin-bottom: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

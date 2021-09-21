@@ -14,7 +14,7 @@
   <meta property="og:description" content="<?php echo DESCRIPTION ?>" />
   <meta property="og:url" content="<?php echo CANONICAL ?>" />
 
-  <title><?php echo SITE_NAME ?></title>
+  <title>HAIR MENU | <?php echo SITE_NAME ?></title>
 
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_include.php"); ?>
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/ga.php"); ?>
@@ -36,10 +36,10 @@
             <h3>HAIR MENU</h3>
             <ul class="breadcrumb">
               <li>
-                  <a href="">TOP</a>
+                  <a href="/">TOP</a>
               </li>
               <li>
-                  <a href="">HAIR MENU</a>
+                  <a href="/menu_hair/">HAIR MENU</a>
               </li>
             </ul>
           </div>

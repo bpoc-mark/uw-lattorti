@@ -11,67 +11,65 @@ $str = explode('/', $url); ?>
 		}
 		?>
 	</div>
-	<nav class="right">
+	<div class="right">
 		<ul>
 			<li>
-				<a href="/salon/" <?php if ($str[1] == "") {echo ' class="here"';} ?>>
+				<a href="/salon/" <?php if ($str[1] == "salon") {echo ' class="here"';} ?>>
 					<span>サロン情報</span><br>
 					SALON
 				</a>
 			</li>
 			<li>
-				<a href="" <?php if ($str[1] == "about") {echo 'class="here"';} ?>>
+				<a href="" <?php if ($str[1] == "gallery") {echo 'class="here"';} ?>>
 					<span>ギャラリー</span><br>
 					GALLERY
 				</a>
 				<ul class="sub_menu">
 					<li>
-						<a href="/hair/" <?php if ($str[1] == "") {echo ' class="here"';} ?>>
+						<a href="/hair/" <?php if ($str[1] == "hair") {echo ' class="here"';} ?>>
 							HAIR STYLE
 						</a>
 					</li>
 					<li>
-						<a href="/nails/" <?php if ($str[1] == "") {echo ' class="here"';} ?>>
+						<a href="/nails/" <?php if ($str[1] == "nails") {echo ' class="here"';} ?>>
 							NAIL DESIGN
 						</a>
 					</li>
 				</ul>
 			</li>
 			<li>
-				<a href="/hair/" <?php if ($str[1] == "about") {echo 'class="here"';} ?>>
+				<a href="/hair/" <?php if ($str[1] == "hair") {echo 'class="here"';} ?>>
 					<span>ヘア</span><br>
 					HAIR
 				</a>
 			</li>
 			<li>
-				<a href="/nails/" <?php if ($str[1] == "about") {echo 'class="here"';} ?>>
+				<a href="/nails/" <?php if ($str[1] == "nails") {echo 'class="here"';} ?>>
 					<span>ネイル</span><br>
 					NAIL
 				</a>
 			</li>
 			<li>
-				<a href="/beauty_menu#id-eyelash" <?php if ($str[1] == "about") {echo 'class="here"';} ?>>
+				<a href="/beauty_menu#id-eyelash" <?php if ($str[1] == "beauty_menu") {echo 'class="here"';} ?>>
 					<span>まつ毛エクステ</span><br>
 					EYELASH
 				</a>
 			</li>
 			<li>
-				<a href="/beauty_menu#id-esthetic" <?php if ($str[1] == "about") {echo 'class="here"';} ?>>
+				<a href="/beauty_menu#id-esthetic" <?php if ($str[1] == "beauty_menu") {echo 'class="here"';} ?>>
 					<span>エステ</span><br>
 					ESTHETIC
 				</a>
 			</li>
-			<li>
-				<div class="menu">
-					<span class="line line-t"></span>
-					<!-- <span class="line line-m"></span> -->
-					<span class="line line-b"></span>
-					<p></p>
-				</div>
-			</li>
 		</ul>
-	</nav>
-	<a href="/contact/" class="btn_reserve">RESERVE</a>
+		<div class="menu">
+			<span class="line line-t"></span>
+			<!-- <span class="line line-m"></span> -->
+			<span class="line line-b"></span>
+			<p></p>
+		</div>
+	</div>
+	<a href="https://bpl.salonpos-net.com/e-reserve/3J8Y102/" target="_blank" class="btn_reserve">RESERVE</a>
 </div>
 <div class="big_menu">
 	<div class="overlay"></div>

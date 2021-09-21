@@ -14,7 +14,7 @@
   <meta property="og:description" content="<?php echo DESCRIPTION ?>" />
   <meta property="og:url" content="<?php echo CANONICAL ?>" />
 
-  <title><?php echo SITE_NAME ?></title>
+  <title>RECRUIT | <?php echo SITE_NAME ?></title>
 
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_include.php"); ?>
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/ga.php"); ?>
@@ -36,10 +36,10 @@
             <h3>RECRUIT</h3>
             <ul class="breadcrumb">
               <li>
-                  <a href="">TOP</a>
+                  <a href="/">TOP</a>
               </li>
               <li>
-                  <a href="">RECRUIT</a>
+                  <a href="/recruit/">RECRUIT</a>
               </li>
             </ul>
           </div>
@@ -265,7 +265,7 @@
                     <a href="tel:053-424-6757" class="btn_tel"><span>Tel.</span>053-424-6757</a>
                   </div>
                   <div class="col">
-                    <a href="" class="btn_entry">ENTRY FORM</a>
+                    <a href="/contact/" class="btn_entry">ENTRY FORM</a>
                   </div>
                 </div>
               </div>

@@ -14,7 +14,7 @@
   <meta property="og:description" content="<?php echo DESCRIPTION ?>" />
   <meta property="og:url" content="<?php echo CANONICAL ?>" />
 
-  <title><?php echo SITE_NAME ?></title>
+  <title>ACCESS | <?php echo SITE_NAME ?></title>
 
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/header_include.php"); ?>
   <?php include($_SERVER['DOCUMENT_ROOT'] . "/inc/ga.php"); ?>
@@ -36,10 +36,10 @@
             <h3>ACCESS</h3>
             <ul class="breadcrumb">
               <li>
-                  <a href="">TOP</a>
+                  <a href="/">TOP</a>
               </li>
               <li>
-                  <a href="">ACCESS</a>
+                  <a href="/access/">ACCESS</a>
               </li>
             </ul>
           </div>
@@ -54,7 +54,7 @@
                 <span class="c-anim-up">（ラットルティ トータルビューティシャンズ 浜松）</span>
               </h4>
               <p class="c-anim-up">〒433-8122 <br> 静岡県浜松市中区上島3-17-3</p>
-              <p class="c-anim-up">TEL.053-424-6757</p>
+              <p class="c-anim-up"><a href="tel:053-424-6757">TEL.053-424-6757</a></p>
               <p class="c-anim-up">OPEN. ［火・水］ 10:00～18:00　<br> ［木・金］ 10:00～20:00　<br> ［土］ 9:00～20:00　<br> ［日祝］ 9:00～17:00</p>
               <p class="c-anim-up">CLOSED. 月曜日</p>
               <p class="c-anim-up">MAIL.  info@lattorti.com</p>
@@ -75,7 +75,7 @@
                 <span class="c-anim-up">（ラットルティ トータルビューティシャンズ 札幌）</span>
               </h4>
               <p class="c-anim-up">〒062-0933 <br> 札幌市豊平区平岸三条15丁目3-3</p>
-              <p class="c-anim-up">TEL.011-598-0850</p>
+              <p class="c-anim-up"><a href="tel:011-598-0850">TEL.011-598-0850</a></p>
               <p class="c-anim-up">OPEN. 11:00～16:00</p>
               <p class="c-anim-up">CLOSED. 不定休</p>
               <p class="c-anim-up">MAIL.  info@lattorti.com</p>
