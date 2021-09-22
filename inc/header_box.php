@@ -38,7 +38,7 @@ $str = explode('/', $url); ?>
 				</ul>
 			</li>
 			<li>
-				<a href="/hair/" <?php if ($str[1] == "hair") {echo 'class="here"';} ?>>
+				<a href="/menu_hair/" <?php if ($str[1] == "hair") {echo 'class="here"';} ?>>
 					<span>ヘア</span><br>
 					HAIR
 				</a>
@@ -109,7 +109,7 @@ $str = explode('/', $url); ?>
 					</ul>
 				</li>
 				<li>
-					<a href="/hair/">
+					<a href="/menu_hair/">
 						<span>ヘアメニュー</span>
 						HAIR MENU
 					</a>
@@ -150,13 +150,13 @@ $str = explode('/', $url); ?>
 				</li>
 				<li>
 					<a href="/access/">
-						<span>スタッフ紹介</span>
+						<span>アクセス</span>
 						ACCESS
 					</a>
 				</li>
 				<li>
 					<a href="/topics/">
-						<span>サロン情報</span>
+						<span>トピックス</span>
 						TOPICS
 					</a>
 				</li>

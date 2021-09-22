@@ -216,7 +216,7 @@
 				<div class="wrapper">
 					<div class="container row">
 						<div class="col">
-							<a href="/hair/">
+							<a href="/menu_hair/">
 								<span class="c-anim-up">ヘアメニュー</span>
 								<h3 class="c-anim-up">HAIR MENU</h3>
 								<p class="c-anim-up">お客様のお悩みやイメージをしっかりとカウンセリングし、一番似合うスタイルを創り上げます。メインのカットはもちろん、カラーリングやパーマなど再現性にも優れたスタイルをご提案いたします。<br>

@@ -27,10 +27,10 @@
 		<ul>
 			<li><a href="/salon/">SALON</a></li>
 			<li><a href="/#id-gallery">GALLERY</a></li>
-			<li><a href="/hair/">HAIR</a></li>
-			<li><a href="/nails/">NAIL</a></li>
-			<li><a href="/beauty_menu#id-eyelash">EYELASH</a></li>
-			<li><a href="/beauty_menu#id-esthetic">ESTHETIC</a></li>
+			<li><a href="/menu_hair/">HAIR</a></li>
+			<li><a href="/beauty_menu/#id-nail">NAIL</a></li>
+			<li><a href="/beauty_menu/#id-eyelash">EYELASH</a></li>
+			<li><a href="/beauty_menu/#id-esthetic">ESTHETIC</a></li>
 			<li><a href="/staff/">STAFF</a></li>
 			<li><a href="/access/">ACCESS</a></li>
 			<li><a href="/topics/">TOPICS</a></li>
