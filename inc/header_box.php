@@ -44,19 +44,19 @@ $str = explode('/', $url); ?>
 				</a>
 			</li>
 			<li>
-				<a href="/nails/" <?php if ($str[1] == "nails") {echo 'class="here"';} ?>>
+				<a href="/beauty_menu/#id-nail" <?php if ($str[1] == "beauty_menu") {echo 'class="here"';} ?>>
 					<span>ネイル</span><br>
 					NAIL
 				</a>
 			</li>
 			<li>
-				<a href="/beauty_menu#id-eyelash" <?php if ($str[1] == "beauty_menu") {echo 'class="here"';} ?>>
+				<a href="/beauty_menu/#id-eyelash" <?php if ($str[1] == "beauty_menu") {echo 'class="here"';} ?>>
 					<span>まつ毛エクステ</span><br>
 					EYELASH
 				</a>
 			</li>
 			<li>
-				<a href="/beauty_menu#id-esthetic" <?php if ($str[1] == "beauty_menu") {echo 'class="here"';} ?>>
+				<a href="/beauty_menu/#id-esthetic" <?php if ($str[1] == "beauty_menu") {echo 'class="here"';} ?>>
 					<span>エステ</span><br>
 					ESTHETIC
 				</a>
@@ -121,19 +121,19 @@ $str = explode('/', $url); ?>
 					</a>
 					<ul class="submenu">
 						<li>
-							<a href="/beauty_menu#id-nail">
+							<a href="/beauty_menu/#id-nail">
 								<span>ネイル</span>
 								NAIL
 							</a>
 						</li>
 						<li>
-							<a href="/beauty_menu#id-eyelash">
+							<a href="/beauty_menu/#id-eyelash">
 								<span>まつ毛エクステ</span>
 								EYELASH
 							</a>
 						</li>
 						<li>
-							<a href="/beauty_menu#id-esthetic">
+							<a href="/beauty_menu/#id-esthetic">
 								<span>エステ</span>
 								ESTHETIC
 							</a>

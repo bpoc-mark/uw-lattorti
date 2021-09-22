@@ -216,7 +216,7 @@ header .header_inner.row .right .menu span {
 
 header .header_inner.row .right .menu span.line-t.show {
   top: 10px;
-  transform: rotate(-45deg);
+  transform: rotate(45deg);
 }
 
 header .header_inner.row .right .menu span.line-b {
@@ -225,7 +225,7 @@ header .header_inner.row .right .menu span.line-b {
 
 header .header_inner.row .right .menu span.line-b.show {
   top: 10px;
-  transform: rotate(45deg);
+  transform: rotate(135deg);
 }
 
 header .header_inner.row .right .menu p {
@@ -3926,6 +3926,21 @@ img[src$=".png"], img[src$=".jpg"] {
   color: #565656;
   text-align: right;
   margin-top: 20px;
+}
+
+#Beauty_menu main .sect_1 .wrapper .price_cont #id-nail {
+  padding-top: 100px;
+  margin-top: -100px;
+}
+
+#Beauty_menu main .sect_1 .wrapper .price_cont #id-eyelash {
+  padding-top: 100px;
+  margin-top: -100px;
+}
+
+#Beauty_menu main .sect_1 .wrapper .price_cont #id-esthetic {
+  padding-top: 100px;
+  margin-top: -100px;
 }
 
 /*==================================

@@ -268,7 +268,7 @@ header .header_inner.row .right .menu span {
 
 header .header_inner.row .right .menu span.line-t.show {
   top: 12px;
-  transform: rotate(-45deg);
+  transform: rotate(45deg);
 }
 
 header .header_inner.row .right .menu span.line-b {
@@ -277,7 +277,7 @@ header .header_inner.row .right .menu span.line-b {
 
 header .header_inner.row .right .menu span.line-b.show {
   top: 12px;
-  transform: rotate(45deg);
+  transform: rotate(135deg);
 }
 
 header .header_inner.row .right .menu p {
@@ -1729,6 +1729,10 @@ img[src$=".png"], img[src$=".jpg"] {
 
 #Top main .sect_4 .wrapper .container.row .col:nth-of-type(1) {
   border-right: 1px solid #8d8d8d;
+}
+
+#Top main .sect_4 .wrapper .container.row .col:nth-of-type(1) a {
+  display: block;
   padding-top: 100px;
   padding-bottom: 80px;
   padding-right: 80px;
@@ -1737,8 +1741,10 @@ img[src$=".png"], img[src$=".jpg"] {
 
 @media only screen and (max-width: 1400px) {
   #Top main .sect_4 .wrapper .container.row .col:nth-of-type(1) {
-    padding-left: 50px;
     border-bottom: 1px solid #8d8d8d;
+  }
+  #Top main .sect_4 .wrapper .container.row .col:nth-of-type(1) a {
+    padding-left: 50px;
   }
 }
 
@@ -1749,7 +1755,8 @@ img[src$=".png"], img[src$=".jpg"] {
   right: 100px;
 }
 
-#Top main .sect_4 .wrapper .container.row .col:nth-of-type(2) {
+#Top main .sect_4 .wrapper .container.row .col:nth-of-type(2) a {
+  display: block;
   padding-top: 100px;
   padding-bottom: 80px;
   padding-left: 80px;
@@ -1758,8 +1765,11 @@ img[src$=".png"], img[src$=".jpg"] {
 
 @media only screen and (max-width: 1400px) {
   #Top main .sect_4 .wrapper .container.row .col:nth-of-type(2) {
-    padding-right: 50px;
     border-bottom: 1px solid #8d8d8d;
+  }
+  #Top main .sect_4 .wrapper .container.row .col:nth-of-type(2) a {
+    display: block;
+    padding-right: 50px;
   }
 }
 
@@ -1772,6 +1782,10 @@ img[src$=".png"], img[src$=".jpg"] {
 
 #Top main .sect_4 .wrapper .container.row .col:nth-of-type(3) {
   border-right: 1px solid #8d8d8d;
+}
+
+#Top main .sect_4 .wrapper .container.row .col:nth-of-type(3) a {
+  display: block;
   padding-top: 100px;
   padding-bottom: 80px;
   padding-right: 80px;
@@ -1779,7 +1793,8 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 @media only screen and (max-width: 1400px) {
-  #Top main .sect_4 .wrapper .container.row .col:nth-of-type(3) {
+  #Top main .sect_4 .wrapper .container.row .col:nth-of-type(3) a {
+    display: block;
     padding-left: 50px;
   }
 }
@@ -1791,7 +1806,8 @@ img[src$=".png"], img[src$=".jpg"] {
   right: 100px;
 }
 
-#Top main .sect_4 .wrapper .container.row .col:nth-of-type(4) {
+#Top main .sect_4 .wrapper .container.row .col:nth-of-type(4) a {
+  display: block;
   padding-top: 100px;
   padding-bottom: 80px;
   padding-left: 80px;
@@ -1799,7 +1815,7 @@ img[src$=".png"], img[src$=".jpg"] {
 }
 
 @media only screen and (max-width: 1400px) {
-  #Top main .sect_4 .wrapper .container.row .col:nth-of-type(4) {
+  #Top main .sect_4 .wrapper .container.row .col:nth-of-type(4) a {
     padding-right: 50px;
   }
 }
@@ -3767,6 +3783,21 @@ img[src$=".png"], img[src$=".jpg"] {
   color: #565656;
   text-align: right;
   margin-top: 30px;
+}
+
+#Beauty_menu main .sect_1 .wrapper .price_cont #id-nail {
+  padding-top: 100px;
+  margin-top: -100px;
+}
+
+#Beauty_menu main .sect_1 .wrapper .price_cont #id-eyelash {
+  padding-top: 100px;
+  margin-top: -100px;
+}
+
+#Beauty_menu main .sect_1 .wrapper .price_cont #id-esthetic {
+  padding-top: 100px;
+  margin-top: -100px;
 }
 
 /*==================================

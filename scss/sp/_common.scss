@@ -207,7 +207,7 @@ header {
             transition: 0.3s;
             &.line-t.show {
               top: 10px;
-              transform: rotate(-45deg);
+              transform: rotate(45deg);
             }
             // &.line-m {
             //   top: 22px;
@@ -219,7 +219,7 @@ header {
               top: 10px;
               &.show {
                 top: 10px;
-                transform: rotate(45deg);
+                transform: rotate(135deg);
               }
             }
           }
