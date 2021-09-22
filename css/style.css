@@ -2282,6 +2282,10 @@ img[src$=".png"], img[src$=".jpg"] {
 /*==================================
   Nails
 ==================================*/
+#Nails main .sect_1 .wrapper {
+  padding-bottom: 50px;
+}
+
 #Nails main .sect_1 .wrapper .container .post_cat_cont .post_cat li a {
   font-family: 'Noto Serif JP', serif;
   font-weight: 300;
@@ -2525,6 +2529,10 @@ img[src$=".png"], img[src$=".jpg"] {
 /*==================================
   Hair
 ==================================*/
+#Hair main .sect_1 .wrapper {
+  padding-bottom: 50px;
+}
+
 #Hair main .sect_1 .wrapper .container .post_cat_cont .post_cat li a {
   font-family: 'Noto Serif JP', serif;
   font-weight: 300;
