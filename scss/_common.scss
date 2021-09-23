@@ -99,7 +99,7 @@ header {
             position: fixed;
             z-index: 1005;
             span{
-              transition-delay: .45s;
+              // transition-delay: .45s;
             }
           }
         }
@@ -296,19 +296,70 @@ header {
     right: 0;
     bottom: 0;
     z-index: 1000;
-    transition: .5s ease-in;
-    transform: translateX(-100%);
+    transition: .5s ease-in-out;
+    // transform: translateX(-100%);
     display: flex;
+    visibility: hidden;
+    opacity: 0;
+    &.active{
+      visibility: visible;
+      opacity: 1;
+      .float_menu{
+        .row{
+          .col{
+            li{
+              animation: fade-in 1s ease-out; /*1s*/
+              @keyframes fade-in{
+                0%{
+                  opacity: 0;
+                  transform: translate3d(-60px, 0, 0);
+                  }
+                100%{
+                  opacity: 1;
+                  transform: translate3d(0, 0, 0);
+                }
+              }
+              a{
+                span{
+                  animation: span-fade-in 1s ease-out; /*1s*/
+                  @keyframes span-fade-in{
+                    0%{
+                      opacity: 0;
+                    }
+                    70%{
+                      opacity: 0;
+                      transform: translate3d(0, 0, 0);
+                      }
+                    100%{
+                      opacity: 1;
+                      transform: translate3d(0, 0, 0);
+                    }
+                  }
+                }
+              }
+            }
+          }
+          .btn_cont{
+            animation: btn_cont-fade-in 1s ease-out; /*1s*/
+            @keyframes btn_cont-fade-in{
+              0%{
+                opacity: 0;
+                transform: translate3d(-60px, 0, 0);
+                }
+              100%{
+                opacity: 1;
+                transform: translate3d(0, 0, 0);
+              }
+            }
+          }
+        }
+      }
+    }
+    
     .overlay{
       width: calc(100% - 850px);
       background-color: rgba(0, 0, 0, 0.22);
       backdrop-filter: blur(3px);
-    }
-    &.active{
-      transform: translateX(0);
-      // .float_menu{
-      //   transform: translateX(0);
-      // }
     }
     .float_menu{
       overflow: auto;

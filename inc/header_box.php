@@ -175,7 +175,7 @@ $str = explode('/', $url); ?>
 			</ul>
 			<div class="btn_cont">
 				<a href="tel:053-424-6757"><span>Tel.</span> 053-424-6757</a>
-				<a href="/contact/" class="btn_contact">RESERVE</a>
+				<a href="https://bpl.salonpos-net.com/e-reserve/3J8Y102/" target="_blank" class="btn_contact">RESERVE</a>
 			</div>
 		</div>
 		<div class="menu menu2">
