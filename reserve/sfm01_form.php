@@ -474,9 +474,10 @@
 
 		flatpickr('.datePicker', {
 			disableMobile: "true",
+			minDate: new Date().fp_incr(4),
 			// disable:[
 			// function(date) {
-			// 		return (date.getDay() === 2);
+			// 		return (date.getDay() === 3);
 			// 	}
 			// ],
 		});
@@ -486,7 +487,9 @@
 			enableTime: true,
 			noCalendar: true,
 			dateFormat: "H:i",
-			time_24hr: true
+			time_24hr: true,
+			minTime: "9:00",
+			maxTime: "20:00"
 			// disable:[
 			// function(date) {
 			// 		return (date.getDay() === 2);
