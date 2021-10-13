@@ -31,14 +31,14 @@
       <section class="jumbo_sect">
 				<div class="wrapper">
 					<div class="container">
-						<span>お問い合わせ</span>
-						<h3>CONTACT</h3>
+						<span>予約</span>
+						<h3>RESERVE</h3>
 						<ul class="breadcrumb">
 						<li>
 							<a href="/">TOP</a>
 						</li>
 						<li>
-							<a href="/contact/">CONTACT</a>
+							<a href="/reserve/">予約</a>
 						</li>
 						</ul>
 					</div>

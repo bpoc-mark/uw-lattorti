@@ -448,6 +448,11 @@ main#Contact {
       transition: all 0.3s ease;
       height: 58px;
       padding: 15px 15px 14px;
+
+      &:hover {
+        color: #fff !important;
+        background: #2f2f2f !important;
+      }
     }
   }
 

@@ -4427,6 +4427,11 @@ main#Contact .btn_back input {
   padding: 15px 15px 14px;
 }
 
+main#Contact .btn_back input:hover {
+  color: #fff !important;
+  background: #2f2f2f !important;
+}
+
 main#Contact .contact_back {
   margin-top: 25px;
   text-align: center;
