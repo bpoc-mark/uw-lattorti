@@ -98,7 +98,7 @@
 								<!-- <th>フリガナ ＊<span class="need">〈必須〉</span></th> -->
 								<td>
 									<label for="furigana">
-										<input type="text" name="furigana_s" id="furigana" value="" title="" placeholder="フリガナ">
+										<input type="text" name="furigana" id="furigana" value="" title="" placeholder="フリガナ">
 										<span class="lbl">フリガナ <span class="req"></span></span>
 									</label>
 								</td>
@@ -215,7 +215,7 @@
 								<!-- <th>お問合せ内容<span class="need">〈必須〉</span></th> -->
 								<td>
 									<label for="message">
-										<textarea name="message_s" id="message" title="" placeholder="お問い合わせ内容 "></textarea>
+										<textarea name="message" id="message" title="" placeholder="お問い合わせ内容 "></textarea>
 										<span class="lbl">お問い合わせ内容 <span class="req"></span></span>
 									</label>
 									
