@@ -208,11 +208,11 @@ main#Contact {
 
   .select-box {
     overflow: hidden;
-    width: 60%;
-    text-align: center;
+    width: 100%;
+    text-align: left;
     position: relative;
-    border-radius: 2px;
-    background: $input_bg_color;
+    // border-radius: 2px;
+    // background: $input_bg_color;
 
     select {
       font-size: 16px;
@@ -225,7 +225,8 @@ main#Contact {
       text-overflow: ellipsis;
       border: none;
       outline: none;
-      background: transparent;
+      border-radius: 2px;
+      background: $input_bg_color;
       background-image: none;
       box-shadow: none;
       -webkit-appearance: none;
@@ -239,7 +240,7 @@ main#Contact {
 
     &::before {
       position: absolute;
-      top: 1.25em;
+      top: 2em;
       right: 21px;
       width: 0;
       height: 0;

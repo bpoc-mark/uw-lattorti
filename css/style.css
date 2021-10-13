@@ -4188,11 +4188,9 @@ main#Contact input[type="radio"]:checked + label::after {
 
 main#Contact .select-box {
   overflow: hidden;
-  width: 60%;
-  text-align: center;
+  width: 100%;
+  text-align: left;
   position: relative;
-  border-radius: 2px;
-  background: #f4f5f5;
 }
 
 main#Contact .select-box select {
@@ -4206,7 +4204,8 @@ main#Contact .select-box select {
   text-overflow: ellipsis;
   border: none;
   outline: none;
-  background: transparent;
+  border-radius: 2px;
+  background: #f4f5f5;
   background-image: none;
   box-shadow: none;
   appearance: none;
@@ -4219,7 +4218,7 @@ main#Contact .select-box select::-ms-expand {
 
 main#Contact .select-box::before {
   position: absolute;
-  top: 1.25em;
+  top: 2em;
   right: 21px;
   width: 0;
   height: 0;
@@ -4573,6 +4572,14 @@ main#Contact table tr td textarea {
   color: #565656;
 }
 
+main#Contact table tr td select {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #565656 !important;
+  padding: 20px 30px !important;
+}
+
 main#Contact table tr td .ad_btn {
   opacity: 0;
 }
@@ -4591,6 +4598,31 @@ main#Contact table tr td label {
   position: relative;
 }
 
+main#Contact table tr td label[for="calendar"], main#Contact table tr td label[for="time"] {
+  position: relative;
+}
+
+main#Contact table tr td label[for="calendar"]::after, main#Contact table tr td label[for="time"]::after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 21px;
+  margin: auto;
+  width: 14px;
+  height: 8px;
+  background-image: url(../images/reserve/under_angle.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 0;
+  content: "";
+  pointer-events: none;
+}
+
+main#Contact table tr td label[for="menu"] span {
+  width: 100%;
+}
+
 main#Contact table tr td .lbl {
   position: absolute;
   top: 0;
@@ -4601,6 +4633,7 @@ main#Contact table tr td .lbl {
   font-weight: 300;
   color: #565656;
   transition-duration: 300ms;
+  pointer-events: none;
 }
 
 main#Contact table tr td .lbl .req {
@@ -4611,7 +4644,7 @@ main#Contact table tr td .lbl .req {
 }
 
 main#Contact table tr td label:focus-within > .lbl,
-main#Contact table tr td input:not(:placeholder-shown) + .lbl, main#Contact table tr td textarea:not(:placeholder-shown) + .lbl {
+main#Contact table tr td input:not(:placeholder-shown) + .lbl, main#Contact table tr td textarea:not(:placeholder-shown) + .lbl, main#Contact table tr td input:-webkit-autofill + .lbl {
   transform: translateY(-33px);
 }
 

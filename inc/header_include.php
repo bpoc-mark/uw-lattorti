@@ -19,3 +19,4 @@ if ((strpos($ua, 'iPhone') !== false) || (strpos($ua, 'iPod') !== false) || (str
 <link href="/css/style.css" media="only screen and (min-width: 900px)" rel="stylesheet">
 <link href="/css/style_sp.css" media="only screen and (max-width: 899px)" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">

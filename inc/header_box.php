@@ -69,7 +69,7 @@ $str = explode('/', $url); ?>
 			<p></p>
 		</div>
 	</div>
-	<a href="https://bpl.salonpos-net.com/e-reserve/3J8Y102/" target="_blank" class="btn_reserve">RESERVE</a>
+	<a href="/reserve/" class="btn_reserve">RESERVE</a>
 </div>
 <div class="big_menu">
 	<div class="overlay"></div>
@@ -175,7 +175,7 @@ $str = explode('/', $url); ?>
 			</ul>
 			<div class="btn_cont">
 				<a href="tel:053-424-6757"><span>Tel.</span> 053-424-6757</a>
-				<a href="https://bpl.salonpos-net.com/e-reserve/3J8Y102/" target="_blank" class="btn_contact">RESERVE</a>
+				<a href="/reserve/" class="btn_contact">RESERVE</a>
 			</div>
 		</div>
 		<div class="menu menu2">

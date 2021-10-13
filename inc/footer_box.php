@@ -5,7 +5,7 @@
 			<div class="col">
 				<p class="c-anim-up">ご予約は、お電話または<br>予約サイトから承っております。</p>
 				<a href="tel:053-424-6757" class="btn-tel c-anim-up" ><span>Tel.</span>053-424-6757</a>
-				<a href="https://bpl.salonpos-net.com/e-reserve/3J8Y102/" target="_blank" class="btn_reserve c-anim-up">RESERVE</a>
+				<a href="/reserve/" class="btn_reserve c-anim-up">RESERVE</a>
 			</div>
 			<div class="col">
 				<a href="/recruit/">
@@ -36,7 +36,7 @@
 			<li><a href="/topics/">TOPICS</a></li>
 			<li><a href="/recruit/">RECRUIT</a></li>
 			<li><a href="/contact/">CONTACT</a></li>
-			<li><a href="https://bpl.salonpos-net.com/e-reserve/3J8Y102/" target="_blank">RESERVE</a></li>
+			<li><a href="/reserve/">RESERVE</a></li>
 		</ul>
 		<a href="#">
 			<img src="/images/common/arrow_up.svg" alt="">
@@ -70,7 +70,7 @@
 	</div>
 
 	<div class="footer_btn">
-		<a href="https://bpl.salonpos-net.com/e-reserve/3J8Y102/" target="_blank">RESERVE</a>
+		<a href="/reserve/">RESERVE</a>
 		<a href="tel:053-424-6757"><span>Tel.</span>053-424-6757</a>
 	</div>
 
