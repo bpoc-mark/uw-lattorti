@@ -79,10 +79,10 @@
 								<td>
 									<label for="zip">
 										<span class="zip-wrap">
-											<input class="zip" type="text" name="zip_s" id="zip" size="10" maxlength="8" placeholder="郵便番号">
+											<input class="zip" type="text" name="zip" id="zip" size="10" maxlength="8" placeholder="郵便番号">
 										</span>
 										<input class="ad_btn" type="button" value="住所自動入力"><br>
-										<input class="text02" type="text" name="address_s" size="60" placeholder="ご住所">
+										<input class="text02" type="text" name="address" size="60" placeholder="ご住所">
 										<span class="lbl">郵便番号</span>
 									</label>
 									
@@ -303,12 +303,12 @@
 			if (checkbox.checked) {
 				submitButton.disabled = "";
 				// submitButton.style.opacity = 1;
-				submitButton.style.cssText = 'opacity:1; background-color: #fff; border: 1px solid #dddddd;';
+				submitButton.style.cssText = 'opacity:1; border: 1px solid #dddddd;';
 				submitButton.parentNode.style.pointerEvents = "auto";
 			} else {
 				submitButton.disabled = "disabled";
 				// submitButton.style.opacity = 0.4;
-				submitButton.style.cssText = 'opacity:0.4; border: none;';
+				submitButton.style.cssText = 'opacity:0.4; background: #dddddd; border: none;';
 				submitButton.parentNode.style.pointerEvents = "none";
 			}
 		}

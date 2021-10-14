@@ -331,12 +331,12 @@
 			if (checkbox.checked) {
 				submitButton.disabled = "";
 				// submitButton.style.opacity = 1;
-				submitButton.style.cssText = 'opacity:1; background-color: #fff; border: 1px solid #dddddd;';
+				submitButton.style.cssText = 'opacity:1; border: 1px solid #dddddd;';
 				submitButton.parentNode.style.pointerEvents = "auto";
 			} else {
 				submitButton.disabled = "disabled";
 				// submitButton.style.opacity = 0.4;
-				submitButton.style.cssText = 'opacity:0.4; border: none;';
+				submitButton.style.cssText = 'opacity:0.4; background: #dddddd; border: none;';
 				submitButton.parentNode.style.pointerEvents = "none";
 			}
 		}

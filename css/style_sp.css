@@ -4453,7 +4453,7 @@ main#Contact .submit_area span {
   letter-spacing: 0.13em;
   color: #000;
   width: 350px;
-  background: #f4f5f5;
+  background: #fff;
   box-sizing: border-box;
   font-feature-settings: "palt";
   position: relative;
@@ -4479,15 +4479,32 @@ main#Contact .submit_area span::after {
   top: 50%;
   right: 20px;
   transform: translate(0, -50%);
+  z-index: 2;
+}
+
+main#Contact .submit_area span::before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 100%;
+  background-color: #2f2f2f;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: .3s ease-in-out;
 }
 
 main#Contact .submit_area span input[type="submit"] {
+  position: relative;
+  z-index: 2;
   font-family: 'Noto Serif JP', serif;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.4;
   letter-spacing: 0.13em;
-  color: #000;
+  color: #565656;
+  transition: .3s ease-in-out;
   cursor: pointer;
   width: 100%;
   height: 70px;
@@ -4504,8 +4521,12 @@ main#Contact .submit_area span:hover {
   background: none;
 }
 
+main#Contact .submit_area span:hover::before {
+  width: 100%;
+}
+
 main#Contact .submit_area span:hover input[type="submit"] {
-  color: #000;
+  color: #fff;
 }
 
 main#Contact .submit_area ul.koumoku {
